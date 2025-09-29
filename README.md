@@ -15,10 +15,11 @@ Adobe Photoshop provides a variety of selection tools, each suited for different
 ### Marquee Tools (Shortcut: M)
 These tools create selections based on simple geometric shapes.
 
-* **Rectangular Marquee Tool:** Used to select rectangular or square areas. Hold **Shift** while dragging to constrain the shape to a perfect square.
-  <img width="250" height="200" alt="image" src="https://github.com/user-attachments/assets/12706336-2a6e-4f8f-8272-59b9e96b00ed" />
+* **Rectangular Marquee Tool:** Used to select rectangular or square areas. Hold **Shift** while dragging to constrain the shape to a perfect square.  
+  <img width="250" height="200" alt="image" src="https://github.com/user-attachments/assets/12706336-2a6e-4f8f-8272-59b9e96b00ed" />  <img width="165" height="132" alt="image" src="https://github.com/user-attachments/assets/111aa065-f1b9-4af4-8458-f6401265920e" />
 
-* **Elliptical Marquee Tool:** Used to select circular or elliptical areas. Hold **Shift** while dragging to constrain the shape to a perfect circle.
+* **Elliptical Marquee Tool:** Used to select circular or elliptical areas. Hold **Shift** while dragging to constrain the shape to a perfect circle.   
+  
 * **Single Row/Column Marquee Tools:** Select a single pixel-wide horizontal or vertical line across the entire image.
 
 ### Lasso Tools (Shortcut: L)
