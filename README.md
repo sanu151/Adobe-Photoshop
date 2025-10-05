@@ -7,45 +7,20 @@ Adobe Photoshop provides a variety of selection tools, each suited for different
 
 ***
 
-## Basic Selection Tools in Adobe Photoshop
+## Adobe Photoshop "New Document
 
-<img width="226" height="181" alt="image" src="https://github.com/user-attachments/assets/a0686671-931a-46b3-b2ea-816a7d7b1147" />
+<img width="1920" height="1080" alt="Screenshot (842)" src="https://github.com/user-attachments/assets/094cac6d-fb30-4782-9065-0aca8dd0dbb3" />
 
+### Sections of the Photoshop "New Document" Dialog Box
 
-### Marquee Tools (Shortcut: M)
-These tools create selections based on simple geometric shapes.
-
-* **Rectangular Marquee Tool:** Used to select rectangular or square areas. Hold **Shift** while dragging to constrain the shape to a perfect square.  
-  <img width="250" height="200" alt="image" src="https://github.com/user-attachments/assets/12706336-2a6e-4f8f-8272-59b9e96b00ed" />  <img width="165" height="132" alt="image" src="https://github.com/user-attachments/assets/111aa065-f1b9-4af4-8458-f6401265920e" />
-
-* **Elliptical Marquee Tool:** Used to select circular or elliptical areas. Hold **Shift** while dragging to constrain the shape to a perfect circle.   
-  
-* **Single Row/Column Marquee Tools:** Select a single pixel-wide horizontal or vertical line across the entire image.
-
-### Lasso Tools (Shortcut: L)
-These tools are for more irregular shapes, allowing for freeform or straight-edged selections.
-
-* **Lasso Tool:** Allows you to draw a freehand selection outline. Best for quick, rough selections.
-* **Polygonal Lasso Tool:** Creates selections using straight-edged segments. You click to set corner points. Ideal for selecting objects with straight lines, like architecture.
-* **Magnetic Lasso Tool:** Draws a selection border that automatically snaps to the edges of objects as you drag the cursor along them. Works best when there is a clear contrast between the object and the background.
-
-### Quick Selection Tools (Shortcut: W)
-These are modern tools that help select areas more intelligently, often based on color, texture, or AI.
-
-* **Quick Selection Tool:** "Paints" a selection by intelligently detecting and following image edges based on color and texture as you drag.
-* **Magic Wand Tool:** Selects contiguous pixels of similar color and tone with a single click. The tolerance setting controls the range of colors included in the selection.
-* **Object Selection Tool:** Uses artificial intelligence to automatically find and select objects in your image, typically by drawing a rough box or lasso around the area.
-
-***
-
-## Modifying Selections
-
-Once a selection is active, you can modify it using options found in the options bar or with keyboard shortcuts:
-
-* **Add to Selection:** Hold **Shift** and use any selection tool to add to the existing selection.
-* **Subtract from Selection:** Hold **Alt** (Windows) or **Option** (macOS) and use any selection tool to remove from the existing selection.
-* **Intersect with Selection:** Hold **Shift + Alt** (Windows) or **Shift + Option** (macOS) to keep only the area where the new selection overlaps the existing one.
-* **Deselect:** Press **Ctrl + D** (Windows) or **Command + D** (macOS) to remove the selection entirely.
-
-This video provides an introductory tutorial on how to use various selection tools in Photoshop for beginners. [How to Use Selection Tools | Photoshop Tutorial for Beginners](https://www.youtube.com/watch?v=PQtDXAQs37U)
-http://googleusercontent.com/youtube_content/0
+| Label | Section Name | Description |
+| :--- | :--- | :--- |
+| **A** | **Template/Category Tabs** | Located at the top of the window, these tabs filter document presets based on intended use (e.g., **Recent**, Saved, Photo, Print, Art & Illustration, Web, Mobile, Film & Video). |
+| **B** | **Recent/Custom Document Presets** | The main central area showing thumbnail previews of recently used or pre-defined canvas sizes. The currently selected preset is highlighted with a blue border (**Custom 5200 x 3600 @ 72 ppi** in your image). |
+| **C** | **Preset Details Panel** | The panel on the right side where you define the exact specifications for your new document. |
+| **D** | **Name Field** | The top field in the Preset Details panel where you set the name for the new document (**Untitled-1**). |
+| **E** | **Document Size/Orientation** | Where you set the **Width**, **Height**, **Units** (Pixels, Inches, etc.), and **Orientation** (Portrait or Landscape). |
+| **F** | **Resolution** | The field to set the **Resolution** (e.g., 72 Pixels/Inch) for the document, affecting print quality and detail. |
+| **G** | **Color & Background** | Options for defining the **Color Mode** (e.g., RGB, CMYK), **Bit Depth** (e.g., 8 bit), and **Background Contents** (White, Black, Transparent, or Custom). |
+| **H** | **Advanced Options** | A collapsible section that includes settings for **Color Profile** and **Pixel Aspect Ratio**. |
+| **I** | **Action Buttons** | Located at the bottom right, these are the **Create** button (to open the new document) and the **Close** button (to close the dialog). |
