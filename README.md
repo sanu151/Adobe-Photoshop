@@ -71,3 +71,43 @@ The power of Photoshop comes from its fundamental tools and architecture:
 | **6** | **Status Bar/Info** | Bottom left of the workspace area. | Displays information about the current document, such as the zoom level (16.67%), file size (5200 px x 3600 px), and the active tool. |
 | **7** | **Application Bar/Tabs** | Above the Document Window, showing "Untitled-1 @ 16.7% (RGB/8)". | Displays the name of the open document, its zoom level, color mode, and bit depth. |
 | **8** | **Window Controls** | Top right of the entire application (Minimize, Maximize, Close buttons). | Standard controls for managing the Photoshop application window. |
+
+***
+
+## Adobe Photoshop Toolbar
+
+
+The Adobe Photoshop Toolbar, usually displayed on the left side of the workspace, contains the tools for selecting, editing, drawing, and viewing images. The tools are logically grouped by function.
+
+Most tool icons have a small triangle in the corner, indicating that other related tools are nested beneath them. You can access the hidden tools by clicking and holding the tool icon or right-clicking on it.
+
+<img width="3336" height="4167" alt="Photoshop Tools" src="https://github.com/user-attachments/assets/8657c3bc-ab19-4119-ad89-e04c47c5e6cb" />
+
+| Icon | Tool Name | Shortcut | Primary Function |
+| :---: | :--- | :--- | :--- |
+| **First Column (Left)** | | | |
+|  | **Move Tool** | **V** | Moves selections, layers, and objects. (Group includes **Artboard Tool**) |
+|  | **Selection Brush Tool** | **L** | Creates free-form, polygonal, and magnetic selections. (Group includes **Lasso Tools**) |
+|  | **Crop Tool** | **C** | Trims or expands the image canvas. (Group includes **Perspective Crop Tool, Slice Tools**) |
+|  | **Eyedropper Tool** | **I** | Samples and sets the foreground color. (Group includes **Color Sampler, Ruler, Note, Count Tools**) |
+|  | **Brush Tool** | **B** | Paints brush strokes with the foreground color. (Group includes **Pencil, Color Replacement, Mixer Brush Tools**) |
+|  | **History Brush Tool** | **Y** | Paints a snapshot from an earlier history state. (Group includes **Art History Brush Tool**) |
+|  | **Gradient Tool** | **G** | Creates a gradual blend between multiple colors. (Group includes **Paint Bucket Tool**) |
+|  | **Adjustment Brush Tool** | **O** | Lightens or darkens areas of the image. (Group includes **Dodge, Burn, Sponge Tools**) |
+|  | **Pen Tool** | **P** | Creates precise paths and anchor points. (Group includes **Freeform Pen Tool**) |
+|  | **Path Selection Tool** | **A** | Selects and moves entire paths or path segments. (Group includes **Direct Selection Tool**) |
+|  | **Hand Tool** | **H** | Pans or scrolls around the image when it is magnified. (Group includes **Rotate View Tool**) |
+|  | **Edit Toolbar** | N/A | Opens the "Customize Toolbar" dialog box. |
+| **Second Column (Right)** | | | |
+|  | **Marquee Tool** | **M** | Creates rectangular, elliptical, single-row, and single-column selections. (Group includes **Rectangular/Elliptical Marquee Tools**) |
+|  | **Selection Tool** | **W** | Selects areas based on similarity. (Group includes **Object Selection, Quick Selection, Magic Wand Tools**) |
+|  | **Frame Tool** | **K** | Creates a placeholder frame for easily clipping images. |
+|  | **Healing Brush Tool** | **J** | Repairs imperfections by blending texture, lighting, and shading. (Group includes **Spot Healing Brush, Patch, Red Eye Tools**) |
+|  | **Clone Stamp Tool** | **S** | Duplicates a sampled portion of an image. (Group includes **Pattern Stamp Tool**) |
+|  | **Eraser Tool** | **E** | Permanently erases pixels on a layer. (Group includes **Background Eraser, Magic Eraser Tools**) |
+|  | **Blur Tool** | N/A | Softens or blurs image areas. (Group includes **Sharpen Tool, Smudge Tool**) |
+|  | **Dodge Tool** | **O** | Lightens areas of an image (same shortcut as Adjustment Brush). |
+|  | **Horizontal Type Tool** | **T** | Creates horizontal and vertical text. (Group includes **Vertical Type Tools, Mask Tools**) |
+|  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
+|  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
+
