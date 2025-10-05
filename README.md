@@ -5,6 +5,8 @@ Adobe Phtoshop Tutorial
 
 Adobe Photoshop provides a variety of selection tools, each suited for different tasks. The basic selection tools can be grouped into Marquee, Lasso, and quick-selection methods.
 
+### Adobe Photoshop official User Guide : https://helpx.adobe.com/in/photoshop/user-guide.html
+
 ***
 
 ## Adobe Photoshop "New Document
