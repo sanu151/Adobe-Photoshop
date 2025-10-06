@@ -399,7 +399,6 @@ The **Crop Tool** is used to remove unwanted parts of an image from the edges an
     * **Overlay Options:** Toggles the display of composition guides within the crop area, such as **Rule of Thirds**, **Grid**, and **Golden Ratio**, to aid in better composition.
     * **Delete Cropped Pixels:** When **unchecked** (recommended), the cropped-out areas are simply hidden, preserving the original pixels (non-destructive). When checked, the hidden pixels are permanently discarded.
 
-***
 
 #### 2. Perspective Crop Tool (Shift + C)
 
@@ -410,7 +409,6 @@ This specialized tool corrects distortion that makes objects appear to recede in
 * **Usage:** Draw a cropping marquee around the distorted object. Then, drag the four corner handles to align the edges of the crop with the vertical and horizontal lines of the distorted object (e.g., the sides and top/bottom of a skewed box).
 * **Effect:** When the crop is committed, Photoshop de-skews or "straightens" the image so the once-distorted object appears to be viewed head-on, simultaneously cropping the image.
 
-***
 
 #### 3. Slice Tool and Slice Select Tool (Shift + C)
 
@@ -422,3 +420,6 @@ These tools are primarily legacy features used in web design to prepare large gr
 * **Slice Select Tool:** Used to select, move, resize, and assign specific optimization and naming properties to the individual slices.
 
 * **Modern Context:** These tools have largely been replaced by modern web technologies and the **Export As** function for optimizing images.
+
+---
+
