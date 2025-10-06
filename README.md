@@ -124,6 +124,8 @@ Here is a breakdown of each tool and their primary differences:
 
 The **Move Tool** is the most common tool for manipulating objects *within* a document.
 
+<img width="378" height="353" alt="image" src="https://github.com/user-attachments/assets/167e3913-0cea-4da3-ba38-2d3b5af70445" />
+
 * **Shortcut:** **V**
 * **Primary Function:** Moves **layers**, **selections**, and **guides** within the Photoshop document.
 * **What it Moves:**
@@ -141,6 +143,8 @@ The **Move Tool** is the most common tool for manipulating objects *within* a do
 #### 2. Artboard Tool (V)
 
 The **Artboard Tool** is used to create and manipulate a special type of layer container called an **Artboard**, which is essentially a separate canvas within a single Photoshop document.
+
+<img width="378" height="362" alt="image" src="https://github.com/user-attachments/assets/9fcc66fa-2523-4383-95f7-74db72e15441" />
 
 * **Shortcut:** **V** (Click and hold the Move Tool icon to select the Artboard Tool, or use **Shift + V** to cycle between the grouped tools).
 * **Primary Function:** Manages the **Artboard container**—creating new artboards, resizing them, and moving them around the workspace.
