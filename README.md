@@ -111,3 +111,51 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
+
+### Move Tool Group
+
+<img width="272" height="74" alt="image" src="https://github.com/user-attachments/assets/8fdc4d9b-37a0-4f87-9dcc-39c279e37eee" />
+
+The **Move Tool (V)** and the **Artboard Tool (V)** are grouped together in the Photoshop toolbar, sharing the same keyboard shortcut, and are fundamentally different in what they move: **content** vs. **canvas**.
+
+Here is a breakdown of each tool and their primary differences:
+
+#### 1. Move Tool (V)
+
+The **Move Tool** is the most common tool for manipulating objects *within* a document.
+
+* **Shortcut:** **V**
+* **Primary Function:** Moves **layers**, **selections**, and **guides** within the Photoshop document.
+* **What it Moves:**
+    * Individual layers (images, text boxes, shapes, Smart Objects).
+    * Multiple layers (by selecting them in the Layers panel or by holding **Shift** or **Ctrl/Command** while clicking on the canvas).
+    * Pixel selections (it "cuts and drags" the pixels to a new location).
+* **Key Features/Tips:**
+    * **Quick Activation:** You can temporarily activate the Move Tool while another tool is selected by holding down **Ctrl** (Windows) or **Command** (Mac).
+    * **Auto-Select:** In the Options bar, enabling **'Auto-Select'** allows you to click directly on an object on the canvas to select its layer without needing to choose it in the Layers panel.
+    * **Transform Controls:** When **'Show Transform Controls'** is enabled in the Options bar, you can quickly **resize and rotate** the selected layer(s) by dragging the handles around the object.
+    * **Copying:** Hold **Alt** (Windows) or **Option** (Mac) while dragging a layer or selection to quickly duplicate and move a copy.
+
+
+
+#### 2. Artboard Tool (V)
+
+The **Artboard Tool** is used to create and manipulate a special type of layer container called an **Artboard**, which is essentially a separate canvas within a single Photoshop document.
+
+* **Shortcut:** **V** (Click and hold the Move Tool icon to select the Artboard Tool, or use **Shift + V** to cycle between the grouped tools).
+* **Primary Function:** Manages the **Artboard container**—creating new artboards, resizing them, and moving them around the workspace.
+* **What it Moves/Creates:**
+    * It creates a **container** that holds layers, text, and Smart Objects, allowing you to design for multiple screen sizes or layouts in one file.
+    * It can move the entire **Artboard** around the document window workspace.
+    * It allows you to **resize** the boundaries of the artboard by dragging the handles.
+
+***
+
+## Move Tool vs. Artboard Tool: Main Differences
+
+| Feature | Move Tool | Artboard Tool |
+| :--- | :--- | :--- |
+| **Target of Movement** | **Content** (layers, groups, selections, guides). | **Canvas/Container** (the Artboard itself). |
+| **Purpose** | Arranging elements **on** the canvas or artboard. | Setting up and managing multiple, separate canvases (artboards) **within** one file. |
+| **Activation** | Default on **V**. Temporarily activated with **Ctrl/Command**. | Grouped with the Move Tool; typically accessed by holding the Move Tool or using **Shift + V**. |
+| **Artboard Interaction** | Moves the **contents** *inside* the artboard. | Moves the **entire artboard** and its contents across the workspace. |
