@@ -368,3 +368,57 @@ The **Object Selection Tool** is a modern, AI-powered tool (introduced in recent
 | **Best for...** | Objects with high texture and clear boundaries. | Solid-colored backgrounds or simple, flat-toned shapes. | Complex, distinct subjects (people, animals, cars) in a photo. |
 
 ---
+
+The **Crop Tool Group** in Adobe Photoshop contains essential tools for adjusting the composition, size, and perspective of an image. These tools are grouped together in the toolbar and are primarily used for non-destructive image trimming and straightening.
+
+## Crop Tool Group Overview (C)
+
+| Tool Name | Shortcut | Primary Function | Key Purpose |
+| :--- | :--- | :--- | :--- |
+| **Crop Tool** | **C** | Trims or expands an image and straightens crooked elements. | Resizing and Composition |
+| **Perspective Crop Tool** | **Shift + C** (cycle) | Corrects perspective distortion caused by shooting an object at an angle. | Geometric Correction |
+| **Slice Tool** | **Shift + C** (cycle) | Divides an image into smaller, optimized sections for web export. | Web Layout and Export |
+| **Slice Select Tool** | **Shift + C** (cycle) | Selects, moves, and modifies the slices created by the Slice Tool. | Web Layout Management |
+
+***
+
+## Crop Tool Group
+
+<img width="263" height="115" alt="image" src="https://github.com/user-attachments/assets/6e46c9e3-dae1-4491-9f4e-88cdcaee92f5" />
+
+#### 1. Crop Tool (C)
+
+<img width="376" height="362" alt="image" src="https://github.com/user-attachments/assets/fa83c2d3-0b54-4bd9-93be-d1b5b12557a6" />
+
+The **Crop Tool** is used to remove unwanted parts of an image from the edges and is often the first tool used in the editing workflow to improve composition.
+
+* **Usage:** Drag the corners or sides of the cropping border to define the new boundaries. Press **Enter** (Windows) or **Return** (Mac) to finalize the crop.
+* **Key Controls in Options Bar:**
+    * **Ratio/Size:** Allows you to set a specific aspect ratio (e.g., 16:9, 4:5) or exact pixel dimensions for the crop.
+    * **Straighten Tool (Ruler Icon):** Click this icon, then draw a line across an element that should be horizontal or vertical (like a horizon). Photoshop automatically rotates the image to straighten the line and adjusts the crop box.
+    * **Overlay Options:** Toggles the display of composition guides within the crop area, such as **Rule of Thirds**, **Grid**, and **Golden Ratio**, to aid in better composition.
+    * **Delete Cropped Pixels:** When **unchecked** (recommended), the cropped-out areas are simply hidden, preserving the original pixels (non-destructive). When checked, the hidden pixels are permanently discarded.
+
+***
+
+#### 2. Perspective Crop Tool (Shift + C)
+
+<img width="357" height="180" alt="image" src="https://github.com/user-attachments/assets/3f5beacb-d2ae-46b1-a5ae-79639435a5f5" />
+
+This specialized tool corrects distortion that makes objects appear to recede in space, typically when a camera is pointed up or down at a subject (like a building).
+
+* **Usage:** Draw a cropping marquee around the distorted object. Then, drag the four corner handles to align the edges of the crop with the vertical and horizontal lines of the distorted object (e.g., the sides and top/bottom of a skewed box).
+* **Effect:** When the crop is committed, Photoshop de-skews or "straightens" the image so the once-distorted object appears to be viewed head-on, simultaneously cropping the image.
+
+***
+
+#### 3. Slice Tool and Slice Select Tool (Shift + C)
+
+<img width="375" height="181" alt="image" src="https://github.com/user-attachments/assets/71f639bd-c691-426e-89ef-d3dd8f5cb344" />   <img width="371" height="176" alt="image" src="https://github.com/user-attachments/assets/73aab51a-5078-4775-b98f-da692baf66cd" />
+
+These tools are primarily legacy features used in web design to prepare large graphics for older or specific web formats.
+
+* **Slice Tool:** Used to draw boundaries (slices) across an image. Each slice is treated as a separate image file when exported.
+* **Slice Select Tool:** Used to select, move, resize, and assign specific optimization and naming properties to the individual slices.
+
+* **Modern Context:** These tools have largely been replaced by modern web technologies and the **Export As** function for optimizing images.
