@@ -169,6 +169,8 @@ Here are detailed notes on the Marquee Tool group:
 
 <img width="300" height="116" alt="image" src="https://github.com/user-attachments/assets/9324510a-d6cd-4f1f-9d37-26dd99dbfc91" />
 
+<img width="904" height="286" alt="image" src="https://github.com/user-attachments/assets/b2d31ae4-0749-43f7-b88d-5487d9485ed3" />
+
 
 | Tool Name | Shortcut | Primary Function | Selection Shape |
 | :--- | :--- | :--- | :--- |
@@ -239,3 +241,64 @@ The style setting controls the dimensions of the selection outline as you drag:
 * They only require a single click to select an entire row or column, respectively. They do not use the **Feather** or **Style** options.
 
 ---
+
+## Selection Brush Tool Group Overview
+
+The **Lasso Tool Group** is a fundamental set of selection tools in Adobe Photoshop, sharing the same icon in the toolbar. These tools are used for creating free-form or polygonal selection outlines, making them ideal for selecting irregular shapes or objects with well-defined edges.
+
+### Lasso Tool Group Overview (L)
+
+<img width="253" height="116" alt="image" src="https://github.com/user-attachments/assets/4e707b26-754e-49f1-90bc-7482ab1336e7" />
+
+
+| Tool Name | Shortcut | Primary Function | Selection Method |
+| :--- | :--- | :--- | :--- |
+| **Lasso Tool** | **L** | Creates a free-form, hand-drawn selection. | Freehand drawing |
+| **Polygonal Lasso Tool** | **Shift + L** (cycle) | Creates a selection composed of straight-line segments. | Clicking and defining vertices |
+| **Magnetic Lasso Tool** | **Shift + L** (cycle) | Creates a selection by "snapping" to the edges of high-contrast areas as you trace. | Edge detection (Semi-automatic) |
+
+***
+
+### Key Features and Usage Notes
+
+#### 1. Lasso Tool (Free-form Selection)
+
+<img width="407" height="347" alt="image" src="https://github.com/user-attachments/assets/d7b8cee9-e1f6-439b-93fe-70a26c48cc41" />
+
+
+* **Usage:** Best for quick, rough selections, or selecting organic/irregular shapes where accuracy isn't critical.
+* **Drawing:** Click and drag the mouse to draw the selection outline. The selection is completed when you release the mouse button, connecting the endpoint to the starting point with a straight line.
+* **Closing the Selection:** To manually close the selection, return the cursor to the starting point (a small circle appears next to the cursor). If you don't return to the start, Photoshop automatically closes the selection when you release the mouse.
+* **Temporary Switch:** Hold **Alt** (Windows) or **Option** (Mac) while drawing to temporarily switch to the **Polygonal Lasso Tool** (allowing you to draw a straight segment mid-selection).
+
+#### 2. Polygonal Lasso Tool (Straight-edge Selection)
+
+<img width="372" height="357" alt="image" src="https://github.com/user-attachments/assets/02ef10d8-5dd6-474f-9fb3-3ce2e1956614" />
+
+* **Usage:** Ideal for selecting objects with straight, geometric edges, like buildings, boxes, or lines.
+* **Drawing:** Click to define the first point, move the cursor, and click again to set the next point (vertex). Repeat until the shape is traced.
+* **Constraining:** Hold **Shift** while clicking to constrain segments to $45^\circ$, $90^\circ$, or $135^\circ$ angles.
+* **Closing the Selection:** Double-click to automatically close the selection with a straight line back to the starting point, or click on the starting point.
+* **Temporary Switch:** Hold **Alt** (Windows) or **Option** (Mac) while clicking to temporarily switch to the **Lasso Tool** (allowing you to draw a free-form segment mid-selection).
+
+#### 3. Magnetic Lasso Tool (Edge-Snapping Selection)
+
+<img width="386" height="362" alt="image" src="https://github.com/user-attachments/assets/fb9e9e60-1f0c-4b05-b6e0-07daa267f744" />
+
+* **Usage:** Most effective for selecting complex objects against a background with **strong contrast** (clear difference in color/tone).
+* **Drawing:** Click to set the first point, then move the cursor along the desired edge. The selection border "snaps" to the edge automatically, dropping anchor points along the way.
+* **Manual Anchor Points:** Click the mouse button to manually place an anchor point if the tool starts to drift or is having trouble detecting the edge.
+* **Options Bar Controls (Sensitivity):**
+    * **Width:** Sets the distance (in pixels) the tool searches from the cursor for an edge. A larger value searches farther.
+    * **Edge Contrast:** Determines the sensitivity of the edge detection. A higher value requires more contrast to define an edge.
+    * **Frequency:** Controls how often the tool places new anchor points along the edge.
+
+***
+
+#### Common Selection Options (Applies to all Tools)
+
+Like the Marquee tools, the Lasso group uses the **Options Bar** to modify the selection:
+
+* **Selection Modes:** Use **Shift** to **Add to Selection** and **Alt/Option** to **Subtract from Selection**.
+* **Feather:** Softens the edge of the selection for blending.
+* **Anti-alias:** Available for the free-form and magnetic tools to smooth the diagonal or curved edges.
