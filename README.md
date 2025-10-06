@@ -209,6 +209,9 @@ These modes determine how a new selection interacts with any existing selection:
 
 The style setting controls the dimensions of the selection outline as you drag:
 
+<img width="183" height="127" alt="image" src="https://github.com/user-attachments/assets/213d1b2c-deb5-4106-b5e6-d650d0bebd4e" />
+
+
 * **Normal (Default):** Allows free-form selection of any width and height.
 * **Fixed Ratio:** Allows you to specify a width-to-height ratio (e.g., 1:1 for a square/circle, or 2:1 for a wide rectangle/oval). You drag to size it, but the ratio remains constant.
 * **Fixed Size:** Allows you to specify exact pixel dimensions (Width and Height). Clicking once on the canvas will instantly create a selection of that precise size.
