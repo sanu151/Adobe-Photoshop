@@ -158,3 +158,78 @@ The **Artboard Tool** is used to create and manipulate a special type of layer c
 | **Purpose** | Arranging elements **on** the canvas or artboard. | Setting up and managing multiple, separate canvases (artboards) **within** one file. |
 | **Activation** | Default on **V**. Temporarily activated with **Ctrl/Command**. | Grouped with the Move Tool; typically accessed by holding the Move Tool or using **Shift + V**. |
 | **Artboard Interaction** | Moves the **contents** *inside* the artboard. | Moves the **entire artboard** and its contents across the workspace. |
+
+
+The Marquee Tool group in Adobe Photoshop is a fundamental set of tools used to create basic geometric selections. It is the second tool from the top in the default Photoshop toolbar, grouped with other selection tools.
+
+Here are detailed notes on the Marquee Tool group:
+
+## Marquee Tool Group Overview
+
+<img width="300" height="116" alt="image" src="https://github.com/user-attachments/assets/9324510a-d6cd-4f1f-9d37-26dd99dbfc91" />
+
+
+| Tool Name | Shortcut | Primary Function | Selection Shape |
+| :--- | :--- | :--- | :--- |
+| **Rectangular Marquee Tool** | **M** | Creates rectangular and square selections. | Rectangle / Square |
+| **Elliptical Marquee Tool** | **Shift + M** (cycle) | Creates elliptical and circular selections. | Ellipse / Circle |
+| **Single Row Marquee Tool** | **Shift + M** (cycle) | Selects a single, 1-pixel-high horizontal row across the entire image. | 1-pixel horizontal line |
+| **Single Column Marquee Tool** | **Shift + M** (cycle) | Selects a single, 1-pixel-wide vertical column across the entire image. | 1-pixel vertical line |
+
+
+### Key Concepts and Options Bar Settings
+
+When any Marquee Tool is active, the **Options Bar** at the top of the screen provides powerful controls to modify how the selection is drawn and behaved.
+
+<img width="1118" height="57" alt="image" src="https://github.com/user-attachments/assets/7cc0218f-670a-4be9-8a4b-502f0c7dd10f" />
+
+
+#### 1. Selection Modes (The Four Buttons)
+
+These modes determine how a new selection interacts with any existing selection:
+
+| Icon | Mode Name | Shortcut | Function |
+| :---: | :--- | :--- | :--- |
+| | **New Selection** | Default | Creates a new selection, destroying any previous one. |
+| | **Add to Selection** | Hold **Shift** | Adds a new area to the existing selection. |
+| | **Subtract from Selection** | Hold **Alt** (Win) / **Option** (Mac) | Removes an area from the existing selection. |
+| | **Intersect with Selection** | Hold **Shift + Alt** (Win) / **Shift + Option** (Mac) | Only the overlapping area between the new and old selection is kept. |
+
+#### 2. Feather (Rectangular/Elliptical Tools Only)
+
+* **Function:** Softens the edges of the selection. The feather radius is measured in pixels.
+* **Effect:** A feathered selection creates a gradual transition between the selected area and the surrounding pixels, preventing a harsh cut.
+
+#### 3. Anti-alias (Elliptical Tool Only)
+
+* **Function:** Only available for the **Elliptical Marquee Tool**.
+* **Effect:** Blends the edge pixels to create a smoother transition around the curved edge, reducing the jagged "stair-step" effect common with rounded or diagonal lines.
+
+#### 4. Style
+
+The style setting controls the dimensions of the selection outline as you drag:
+
+* **Normal (Default):** Allows free-form selection of any width and height.
+* **Fixed Ratio:** Allows you to specify a width-to-height ratio (e.g., 1:1 for a square/circle, or 2:1 for a wide rectangle/oval). You drag to size it, but the ratio remains constant.
+* **Fixed Size:** Allows you to specify exact pixel dimensions (Width and Height). Clicking once on the canvas will instantly create a selection of that precise size.
+
+---
+
+#### Keyboard Modifiers (While Dragging)
+
+| Action | Modifier Key(s) | Effect |
+| :--- | :--- | :--- |
+| **Constrain Shape** | Hold **Shift** | Forces the selection to a perfect **square** (Rectangular Tool) or a perfect **circle** (Elliptical Tool). |
+| **Draw from Center** | Hold **Alt** (Win) / **Option** (Mac) | The selection originates and expands from the point where you initially clicked, rather than from a corner. |
+| **Move Selection** | Hold **Spacebar** | Temporarily moves the selection outline *while* you are still drawing it. Release the Spacebar to continue drawing. |
+| **Perfect Shape from Center** | Hold **Shift + Alt/Option** | Draws a perfect square or circle expanding symmetrically from the center point. |
+
+---
+
+### Single Row and Single Column Tools
+
+* These tools are highly specialized and are often overlooked.
+* They are primarily used for:
+    * **Removing artifacts** like single-pixel lines or scratches from old scans.
+    * **Creative effects** or precise pixel work, such as sampling or filling a single line of pixels.
+* They only require a single click to select an entire row or column, respectively. They do not use the **Feather** or **Style** options.
