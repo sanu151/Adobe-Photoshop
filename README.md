@@ -313,11 +313,15 @@ Like the Marquee tools, the Lasso group uses the **Options Bar** to modify the s
 
 <img width="268" height="87" alt="image" src="https://github.com/user-attachments/assets/7b1f9c42-d823-43ff-9d3a-78c2554a11d6" />
 
+
+
 The term "Selection Tool Group" in Photoshop typically refers to the tools that quickly select areas based on content, color, or shape, and are usually grouped around the **Magic Wand Tool** and **Quick Selection Tool** in the toolbar. These tools offer more intelligent, content-aware selection methods compared to the basic Marquee and Lasso tools.
 
 #### Quick Selection Tool (W)
 
 <img width="382" height="365" alt="image" src="https://github.com/user-attachments/assets/55e24243-ac5b-47c8-9e79-91bfd8448bac" />
+
+<img width="965" height="53" alt="image" src="https://github.com/user-attachments/assets/dd4782b3-3d1e-49f4-bd83-46cdf0b3e4d0" />
 
 The **Quick Selection Tool** is a brush-like tool that intelligently selects areas by seeking and following image edges and color boundaries as you paint over them.
 
@@ -335,6 +339,8 @@ The **Quick Selection Tool** is a brush-like tool that intelligently selects are
 
 <img width="372" height="343" alt="image" src="https://github.com/user-attachments/assets/70d85722-de9c-49af-b0b3-08f9d8c03c86" />
 
+<img width="1312" height="61" alt="image" src="https://github.com/user-attachments/assets/c10c956c-2579-438c-a7fd-ffb67eeaab4f" />
+
 The **Magic Wand Tool** is a classic selection tool that selects pixels based on their similarity in color and tone to the pixel you click.
 
 * **Shortcut:** **W** (It shares the shortcut with the Quick Selection Tool, use **Shift + W** to cycle between them).
@@ -350,6 +356,8 @@ The **Magic Wand Tool** is a classic selection tool that selects pixels based on
 #### Object Selection Tool (W)
 
 <img width="372" height="352" alt="image" src="https://github.com/user-attachments/assets/974d17e6-705f-419b-9afa-d51316ddfc94" />
+
+<img width="1212" height="52" alt="image" src="https://github.com/user-attachments/assets/1d7765d9-f482-4e48-ad70-b13a0f01e368" />
 
 The **Object Selection Tool** is a modern, AI-powered tool (introduced in recent Photoshop versions) that identifies and selects objects within an image.
 
@@ -369,6 +377,12 @@ The **Object Selection Tool** is a modern, AI-powered tool (introduced in recent
 
 ---
 
+## Crop Tool Group
+
+<img width="263" height="115" alt="image" src="https://github.com/user-attachments/assets/6e46c9e3-dae1-4491-9f4e-88cdcaee92f5" />
+
+<img width="1408" height="57" alt="image" src="https://github.com/user-attachments/assets/c3471200-70a8-48c7-8535-460dea16b3fe" />
+
 The **Crop Tool Group** in Adobe Photoshop contains essential tools for adjusting the composition, size, and perspective of an image. These tools are grouped together in the toolbar and are primarily used for non-destructive image trimming and straightening.
 
 ## Crop Tool Group Overview (C)
@@ -379,12 +393,6 @@ The **Crop Tool Group** in Adobe Photoshop contains essential tools for adjustin
 | **Perspective Crop Tool** | **Shift + C** (cycle) | Corrects perspective distortion caused by shooting an object at an angle. | Geometric Correction |
 | **Slice Tool** | **Shift + C** (cycle) | Divides an image into smaller, optimized sections for web export. | Web Layout and Export |
 | **Slice Select Tool** | **Shift + C** (cycle) | Selects, moves, and modifies the slices created by the Slice Tool. | Web Layout Management |
-
-***
-
-## Crop Tool Group
-
-<img width="263" height="115" alt="image" src="https://github.com/user-attachments/assets/6e46c9e3-dae1-4491-9f4e-88cdcaee92f5" />
 
 #### 1. Crop Tool (C)
 
@@ -423,3 +431,53 @@ These tools are primarily legacy features used in web design to prepare large gr
 
 ---
 
+## Frame Tool (K)
+
+The **Frame Tool (K)** is a dedicated tool in Adobe Photoshop designed to create placeholder frames that images can be easily dropped into. It is a more modern feature intended to simplify the process of clipping content within defined shapes.
+
+The Frame Tool is typically a standalone tool in the toolbar, often grouped with the Crop and Slice tools, or sometimes by itself if the toolbar is customized.
+
+<img width="376" height="347" alt="image" src="https://github.com/user-attachments/assets/d06eabd3-2576-4c24-a910-c5738709138e" />
+
+### Frame Tool (K)
+
+| Tool Name | Shortcut | Primary Function | Selection Shape |
+| :--- | :--- | :--- | :--- |
+| **Frame Tool** | **K** | Creates rectangular or elliptical content placeholders (frames). | Rectangle or Ellipse |
+
+#### Key Concepts
+
+1.  **Frame Creation:**
+    * The Frame Tool creates a **Frame Layer** (indicated by a diagonal cross icon on the layer thumbnail in the Layers panel).
+    * Frames are non-destructive; they act as a mask or placeholder for the content inside them.
+    * **Rectangular Frame:** Click and drag to draw a rectangular or square frame.
+    * **Elliptical Frame:** Hold **Shift** and press **K** to switch to the elliptical shape, then click and drag to draw a circular or elliptical frame.
+    * **Creating a Square/Circle:** Hold **Shift** while drawing the frame to constrain it to a perfect square or circle.
+
+2.  **Placing Content:**
+    * Once a frame is created, you can simply **drag and drop** an image onto the frame layer from your computer or from within Photoshop.
+    * The image automatically scales to fit the frame, and it is **clipped** to the frame's shape.
+    * The dropped image becomes a **Smart Object** inside the frame layer, preserving its quality.
+
+3.  **Frame vs. Content:**
+    * A frame layer has two components, which you can select and transform independently:
+        * **The Frame:** The container itself (the visible border).
+        * **The Content:** The image placed *inside* the container.
+    * To select the **Content**, click the content thumbnail in the Layers panel. You can then use the **Move Tool (V)** and **Free Transform (Ctrl/Cmd + T)** to resize or reposition the image *inside* the frame without changing the frame's size.
+    * To select the **Frame**, click the frame thumbnail (the one with the diagonal cross). You can then resize or reposition the frame itself.
+
+#### Options Bar Controls
+
+When the Frame Tool is active, the Options Bar provides settings for the frame's appearance and behavior:
+
+<img width="783" height="56" alt="image" src="https://github.com/user-attachments/assets/ddd84e50-80ee-44f2-8bbc-476ec4767d09" />
+
+* **Shape:** You can switch between **Rectangular** and **Elliptical** frames.
+* **Style:** You can pre-set the frame to have a **Fixed Ratio** or a **Fixed Size**, similar to the Marquee tools.
+* **Frame Border:** While not always a direct option in the tool's Options Bar, you can easily add a border/stroke to the frame layer using the **Properties Panel** (select the Frame layer, and adjust the stroke settings).
+
+#### Advantages
+
+* **Speed:** Simplifies clipping images into shapes, especially useful for layouts and mockups.
+* **Flexibility:** Allows independent movement of the image and the container, offering a high degree of control over composition.
+* **Non-Destructive:** The original image remains intact, making it easy to swap content or adjust the composition later.
