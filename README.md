@@ -306,3 +306,65 @@ Like the Marquee tools, the Lasso group uses the **Options Bar** to modify the s
 * **Selection Modes:** Use **Shift** to **Add to Selection** and **Alt/Option** to **Subtract from Selection**.
 * **Feather:** Softens the edge of the selection for blending.
 * **Anti-alias:** Available for the free-form and magnetic tools to smooth the diagonal or curved edges.
+
+---
+
+## Selection Tool Group
+
+<img width="268" height="87" alt="image" src="https://github.com/user-attachments/assets/7b1f9c42-d823-43ff-9d3a-78c2554a11d6" />
+
+The term "Selection Tool Group" in Photoshop typically refers to the tools that quickly select areas based on content, color, or shape, and are usually grouped around the **Magic Wand Tool** and **Quick Selection Tool** in the toolbar. These tools offer more intelligent, content-aware selection methods compared to the basic Marquee and Lasso tools.
+
+#### Quick Selection Tool (W)
+
+<img width="382" height="365" alt="image" src="https://github.com/user-attachments/assets/55e24243-ac5b-47c8-9e79-91bfd8448bac" />
+
+The **Quick Selection Tool** is a brush-like tool that intelligently selects areas by seeking and following image edges and color boundaries as you paint over them.
+
+* **Shortcut:** **W**
+* **Primary Function:** To quickly paint a selection based on color, texture, and edge detection.
+* **Usage:** Click and drag the tool over the desired area. Photoshop automatically expands the selection outwards until it encounters a strong boundary or edge.
+* **Key Controls in Options Bar:**
+    * **Size:** The size of the brush cursor affects how quickly and broadly the selection expands.
+    * **Auto-Enhance:** When enabled, it helps produce cleaner, more accurate selection edges.
+* **Adding/Subtracting:** The tool defaults to **Add to Selection**. Hold **Alt** (Windows) or **Option** (Mac) to **Subtract from Selection** (the cursor changes to a minus sign).
+
+***
+
+#### Magic Wand Tool (W)
+
+<img width="372" height="343" alt="image" src="https://github.com/user-attachments/assets/70d85722-de9c-49af-b0b3-08f9d8c03c86" />
+
+The **Magic Wand Tool** is a classic selection tool that selects pixels based on their similarity in color and tone to the pixel you click.
+
+* **Shortcut:** **W** (It shares the shortcut with the Quick Selection Tool, use **Shift + W** to cycle between them).
+* **Primary Function:** To select a uniformly colored or toned area with a single click.
+* **Best Use Case:** Isolating solid-colored backgrounds (e.g., a blue sky or a white wall).
+* **Key Controls in Options Bar:**
+    * **Tolerance:** The most important setting. This value (0-255) defines the range of color values the tool includes in the selection.
+        * **Low Tolerance (e.g., 5-10):** Selects only pixels very similar to the clicked pixel (good for precise, narrow color ranges).
+        * **High Tolerance (e.g., 50-100):** Selects a broader range of color values (good for gradient areas or larger areas of similar color).
+    * **Anti-alias:** Creates a smoother, less jagged edge for the selection.
+    * **Contiguous:** When checked (default), it selects only adjacent pixels. When **unchecked**, it selects all pixels across the entire image that fall within the tolerance range, regardless of where they are located.
+
+#### Object Selection Tool (W)
+
+<img width="372" height="352" alt="image" src="https://github.com/user-attachments/assets/974d17e6-705f-419b-9afa-d51316ddfc94" />
+
+The **Object Selection Tool** is a modern, AI-powered tool (introduced in recent Photoshop versions) that identifies and selects objects within an image.
+
+* **Shortcut:** **W** (grouped with the other W tools).
+* **Primary Function:** To automatically detect and select a distinct object or area based on a general indication from the user.
+* **Usage Modes in Options Bar:**
+    * **Rectangle/Lasso:** You draw a simple rectangular or freehand border around the object you want to select. Photoshop's machine learning then identifies the object within that region and creates a precise selection.
+    * **Object Finder (Newer Versions):** When enabled, Photoshop hovers over the image and highlights distinct objects, allowing you to click to select them instantly.
+
+
+| Feature | Quick Selection Tool | Magic Wand Tool | Object Selection Tool |
+| :--- | :--- | :--- | :--- |
+| **Selection Type** | Brush-based, edge-aware painting | Single-click, color/tone-based | AI-powered object recognition |
+| **Speed** | Very fast for complex, high-contrast objects | Instant for large, uniform areas | Fast, especially for clearly defined objects |
+| **Key Setting** | Brush Size / Auto-Enhance | **Tolerance** / Contiguous | Selection Mode (Rectangle/Lasso) |
+| **Best for...** | Objects with high texture and clear boundaries. | Solid-colored backgrounds or simple, flat-toned shapes. | Complex, distinct subjects (people, animals, cars) in a photo. |
+
+---
