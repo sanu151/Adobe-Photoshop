@@ -111,8 +111,8 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
-
-### Move Tool Group
+---
+### Move Tool Group Overview
 
 <img width="272" height="74" alt="image" src="https://github.com/user-attachments/assets/8fdc4d9b-37a0-4f87-9dcc-39c279e37eee" />
 
@@ -164,6 +164,7 @@ The Marquee Tool group in Adobe Photoshop is a fundamental set of tools used to 
 
 Here are detailed notes on the Marquee Tool group:
 
+---
 ## Marquee Tool Group Overview
 
 <img width="300" height="116" alt="image" src="https://github.com/user-attachments/assets/9324510a-d6cd-4f1f-9d37-26dd99dbfc91" />
@@ -236,3 +237,5 @@ The style setting controls the dimensions of the selection outline as you drag:
     * **Removing artifacts** like single-pixel lines or scratches from old scans.
     * **Creative effects** or precise pixel work, such as sampling or filling a single line of pixels.
 * They only require a single click to select an entire row or column, respectively. They do not use the **Feather** or **Style** options.
+
+---
