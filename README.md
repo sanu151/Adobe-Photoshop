@@ -150,7 +150,7 @@ The **Artboard Tool** is used to create and manipulate a special type of layer c
     * It allows you to **resize** the boundaries of the artboard by dragging the handles.
 
 
-## Move Tool vs. Artboard Tool: Main Differences
+#### Move Tool vs. Artboard Tool: Main Differences
 
 | Feature | Move Tool | Artboard Tool |
 | :--- | :--- | :--- |
