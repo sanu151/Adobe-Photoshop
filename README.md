@@ -72,6 +72,7 @@ The power of Photoshop comes from its fundamental tools and architecture:
 | **7** | **Application Bar/Tabs** | Above the Document Window, showing "Untitled-1 @ 16.7% (RGB/8)". | Displays the name of the open document, its zoom level, color mode, and bit depth. |
 | **8** | **Window Controls** | Top right of the entire application (Minimize, Maximize, Close buttons). | Standard controls for managing the Photoshop application window. |
 
+* **layer** is like "Transparent Glass"
 ***
 
 ## Adobe Photoshop Toolbar
@@ -111,63 +112,9 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
+* **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel" + "&uarr;" / "Wheel" + "&darr;" 
 ---
-### Move Tool Group Overview
-
-<img width="272" height="74" alt="image" src="https://github.com/user-attachments/assets/8fdc4d9b-37a0-4f87-9dcc-39c279e37eee" />
-
-The **Move Tool (V)** and the **Artboard Tool (V)** are grouped together in the Photoshop toolbar, sharing the same keyboard shortcut, and are fundamentally different in what they move: **content** vs. **canvas**.
-
-Here is a breakdown of each tool and their primary differences:
-
-#### 1. Move Tool (V)
-
-The **Move Tool** is the most common tool for manipulating objects *within* a document.
-
-<img width="378" height="353" alt="image" src="https://github.com/user-attachments/assets/167e3913-0cea-4da3-ba38-2d3b5af70445" />
-
-* **Shortcut:** **V**
-* **Primary Function:** Moves **layers**, **selections**, and **guides** within the Photoshop document.
-* **What it Moves:**
-    * Individual layers (images, text boxes, shapes, Smart Objects).
-    * Multiple layers (by selecting them in the Layers panel or by holding **Shift** or **Ctrl/Command** while clicking on the canvas).
-    * Pixel selections (it "cuts and drags" the pixels to a new location).
-* **Key Features/Tips:**
-    * **Quick Activation:** You can temporarily activate the Move Tool while another tool is selected by holding down **Ctrl** (Windows) or **Command** (Mac).
-    * **Auto-Select:** In the Options bar, enabling **'Auto-Select'** allows you to click directly on an object on the canvas to select its layer without needing to choose it in the Layers panel.
-    * **Transform Controls:** When **'Show Transform Controls'** is enabled in the Options bar, you can quickly **resize and rotate** the selected layer(s) by dragging the handles around the object.
-    * **Copying:** Hold **Alt** (Windows) or **Option** (Mac) while dragging a layer or selection to quickly duplicate and move a copy.
-
-
-
-#### 2. Artboard Tool (V)
-
-The **Artboard Tool** is used to create and manipulate a special type of layer container called an **Artboard**, which is essentially a separate canvas within a single Photoshop document.
-
-<img width="378" height="362" alt="image" src="https://github.com/user-attachments/assets/9fcc66fa-2523-4383-95f7-74db72e15441" />
-
-* **Shortcut:** **V** (Click and hold the Move Tool icon to select the Artboard Tool, or use **Shift + V** to cycle between the grouped tools).
-* **Primary Function:** Manages the **Artboard container**—creating new artboards, resizing them, and moving them around the workspace.
-* **What it Moves/Creates:**
-    * It creates a **container** that holds layers, text, and Smart Objects, allowing you to design for multiple screen sizes or layouts in one file.
-    * It can move the entire **Artboard** around the document window workspace.
-    * It allows you to **resize** the boundaries of the artboard by dragging the handles.
-
-
-#### Move Tool vs. Artboard Tool: Main Differences
-
-| Feature | Move Tool | Artboard Tool |
-| :--- | :--- | :--- |
-| **Target of Movement** | **Content** (layers, groups, selections, guides). | **Canvas/Container** (the Artboard itself). |
-| **Purpose** | Arranging elements **on** the canvas or artboard. | Setting up and managing multiple, separate canvases (artboards) **within** one file. |
-| **Activation** | Default on **V**. Temporarily activated with **Ctrl/Command**. | Grouped with the Move Tool; typically accessed by holding the Move Tool or using **Shift + V**. |
-| **Artboard Interaction** | Moves the **contents** *inside* the artboard. | Moves the **entire artboard** and its contents across the workspace. |
-
-
-The Marquee Tool group in Adobe Photoshop is a fundamental set of tools used to create basic geometric selections. It is the second tool from the top in the default Photoshop toolbar, grouped with other selection tools.
-
-Here are detailed notes on the Marquee Tool group:
-
+## BASIC SELECTION TOOLS
 ---
 ## Marquee Tool Group Overview
 
@@ -175,6 +122,9 @@ Here are detailed notes on the Marquee Tool group:
 
 <img width="904" height="286" alt="image" src="https://github.com/user-attachments/assets/b2d31ae4-0749-43f7-b88d-5487d9485ed3" />
 
+The Marquee Tool group in Adobe Photoshop is a fundamental set of tools used to create basic geometric selections. It is the second tool from the top in the default Photoshop toolbar, grouped with other selection tools.
+
+Here are detailed notes on the Marquee Tool group:
 
 | Tool Name | Shortcut | Primary Function | Selection Shape |
 | :--- | :--- | :--- | :--- |
@@ -481,3 +431,55 @@ When the Frame Tool is active, the Options Bar provides settings for the frame's
 * **Speed:** Simplifies clipping images into shapes, especially useful for layouts and mockups.
 * **Flexibility:** Allows independent movement of the image and the container, offering a high degree of control over composition.
 * **Non-Destructive:** The original image remains intact, making it easy to swap content or adjust the composition later.
+
+---
+### Move Tool Group Overview
+
+<img width="272" height="74" alt="image" src="https://github.com/user-attachments/assets/8fdc4d9b-37a0-4f87-9dcc-39c279e37eee" />
+
+The **Move Tool (V)** and the **Artboard Tool (V)** are grouped together in the Photoshop toolbar, sharing the same keyboard shortcut, and are fundamentally different in what they move: **content** vs. **canvas**.
+
+Here is a breakdown of each tool and their primary differences:
+
+#### 1. Move Tool (V)
+
+The **Move Tool** is the most common tool for manipulating objects *within* a document.
+
+<img width="378" height="353" alt="image" src="https://github.com/user-attachments/assets/167e3913-0cea-4da3-ba38-2d3b5af70445" />
+
+* **Shortcut:** **V**
+* **Primary Function:** Moves **layers**, **selections**, and **guides** within the Photoshop document.
+* **What it Moves:**
+    * Individual layers (images, text boxes, shapes, Smart Objects).
+    * Multiple layers (by selecting them in the Layers panel or by holding **Shift** or **Ctrl/Command** while clicking on the canvas).
+    * Pixel selections (it "cuts and drags" the pixels to a new location).
+* **Key Features/Tips:**
+    * **Quick Activation:** You can temporarily activate the Move Tool while another tool is selected by holding down **Ctrl** (Windows) or **Command** (Mac).
+    * **Auto-Select:** In the Options bar, enabling **'Auto-Select'** allows you to click directly on an object on the canvas to select its layer without needing to choose it in the Layers panel.
+    * **Transform Controls:** When **'Show Transform Controls'** is enabled in the Options bar, you can quickly **resize and rotate** the selected layer(s) by dragging the handles around the object.
+    * **Copying:** Hold **Alt** (Windows) or **Option** (Mac) while dragging a layer or selection to quickly duplicate and move a copy.
+
+
+
+#### 2. Artboard Tool (V)
+
+The **Artboard Tool** is used to create and manipulate a special type of layer container called an **Artboard**, which is essentially a separate canvas within a single Photoshop document.
+
+<img width="378" height="362" alt="image" src="https://github.com/user-attachments/assets/9fcc66fa-2523-4383-95f7-74db72e15441" />
+
+* **Shortcut:** **V** (Click and hold the Move Tool icon to select the Artboard Tool, or use **Shift + V** to cycle between the grouped tools).
+* **Primary Function:** Manages the **Artboard container**—creating new artboards, resizing them, and moving them around the workspace.
+* **What it Moves/Creates:**
+    * It creates a **container** that holds layers, text, and Smart Objects, allowing you to design for multiple screen sizes or layouts in one file.
+    * It can move the entire **Artboard** around the document window workspace.
+    * It allows you to **resize** the boundaries of the artboard by dragging the handles.
+
+
+#### Move Tool vs. Artboard Tool: Main Differences
+
+| Feature | Move Tool | Artboard Tool |
+| :--- | :--- | :--- |
+| **Target of Movement** | **Content** (layers, groups, selections, guides). | **Canvas/Container** (the Artboard itself). |
+| **Purpose** | Arranging elements **on** the canvas or artboard. | Setting up and managing multiple, separate canvases (artboards) **within** one file. |
+| **Activation** | Default on **V**. Temporarily activated with **Ctrl/Command**. | Grouped with the Move Tool; typically accessed by holding the Move Tool or using **Shift + V**. |
+| **Artboard Interaction** | Moves the **contents** *inside* the artboard. | Moves the **entire artboard** and its contents across the workspace. |
