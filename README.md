@@ -112,7 +112,7 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
-* **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel" + "&uarr;" / "Wheel" + "&darr;" 
+* **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
 ---
 ## BASIC SELECTION TOOLS
 ---
