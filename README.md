@@ -399,6 +399,91 @@ The **Colors Group** in Adobe Photoshop refers to the section of the toolbar ded
 | **Swap Foreground/Background** | **X** | **X** |
 
 ---
+## Layers
+
+Layers are the fundamental building blocks of an Adobe Photoshop file, allowing you to edit and manipulate specific elements of an image independently without permanently altering other parts. Think of them as transparent sheets stacked on top of one another.
+
+<img width="3750" height="3142" alt="layers_photoshop" src="https://github.com/user-attachments/assets/460a47a7-e86d-417b-9f06-b7aa195f1731" />
+
+#### 1. The Concept of Layers 📄
+
+* **Non-Destructive Editing:** Layers enable non-destructive workflow, meaning you can make changes (paint, adjust color, apply filters) to one layer without permanently changing the pixels on other layers.
+* **Layer Stack:** The order of layers in the **Layers Panel** determines how they appear in the document. Layers at the top of the stack cover or obscure the layers beneath them.
+* **Transparency:** Any area of a layer where there are no pixels is transparent, allowing the layers underneath to show through.
+
+
+#### 2. The Layers Panel
+
+The Layers Panel is the control center for managing all layers in your document.
+
+| Element | Description |
+| :--- | :--- |
+| **Layer Thumbnail** | A miniature preview of the layer's content. |
+| **Layer Name** | Double-click to rename a layer (e.g., "Background," "Text," "Shadow"). |
+| **Visibility Toggle** | The **eye icon** 👀. Click to hide or show the layer's content. |
+| **Active Layer** | The selected layer is highlighted, indicating that any action (painting, filtering) will affect only that layer. |
+| **Background Layer** | The bottom-most layer, often locked (🔒). It is typically the original image. You must **convert it to a regular layer** (double-click the lock) to use full editing features. |
+
+#### Key Panel Controls (Bottom of the Panel)
+
+| Icon | Function | Shortcut |
+| :---: | :--- | :--- |
+| 🗑️ | **Delete Layer** | **Delete** (key) |
+| ➕ | **Create New Layer** | **Ctrl + Shift + N** (Win) / **Cmd + Shift + N** (Mac) |
+| 🗂️ | **Create New Group** | **Ctrl + G** (Win) / **Cmd + G** (Mac) (Groups selected layers) |
+| 🔳 | **Add Layer Mask** | Creates a mask to hide or reveal parts of a layer non-destructively. |
+| ⚫ | **Add Adjustment Layer** | Creates a layer for color and tone adjustments (e.g., Hue/Saturation, Curves). |
+| $\text{fx}$ | **Add Layer Style** | Opens dialog to add effects like Drop Shadow, Stroke, Bevel & Emboss. |
+
+***
+
+#### 3. Layer Properties
+
+#### A. Opacity and Fill
+
+* **Opacity:** Controls the overall transparency of the entire layer and all its contents and effects. $100\%$ is fully visible; $0\%$ is completely invisible.
+* **Fill:** Controls the transparency of only the layer's pixels, *leaving any Layer Styles (like a stroke or drop shadow) fully opaque*. This is useful for creating complex effects where the object itself is transparent but its shadow remains visible.
+
+#### B. Blending Modes
+
+Blending modes define how a layer's pixels interact with or "blend" with the pixels on the layers directly beneath it.
+
+<img width="276" height="753" alt="image" src="https://github.com/user-attachments/assets/2108f55c-2fa8-4cf2-b398-6631639bf55a" />
+
+They are categorized based on their function:
+
+| Category | Example Modes | Function |
+| :--- | :--- | :--- |
+| **Normal** | Normal, Dissolve | No change or simple pixel alteration. |
+| **Darkening** | **Multiply**, Color Burn | Makes the image darker; used for coloring shadows. |
+| **Lightening** | **Screen**, Color Dodge | Makes the image lighter; used for coloring highlights and glows. |
+| **Contrast** | **Overlay**, Soft Light | Increases contrast; uses different blending formulas for light and dark areas. |
+| **Inversion** | Difference, Exclusion | Compares colors for artistic/abstract effects. |
+| **Component** | Hue, Saturation, **Color**, Luminosity | Blends only specific color components (e.g., the hue from the top layer but the brightness from the bottom). |
+
+***
+
+#### 4. Special Layer Types
+
+| Layer Type | Purpose | Icon/Indicator |
+| :--- | :--- | :--- |
+| **Adjustment Layer** | Applies color/tonal corrections (e.g., Levels, Exposure) non-destructively to all layers beneath it. | ⚫ (Half-filled circle) |
+| **Layer Mask** | A grayscale channel attached to a layer. **Black** hides, **White** reveals, and **Grays** partially reveal. Allows non-destructive hiding of layer content. | 🔳 (White rectangle with black hole) |
+| **Clipping Mask** | Constrains the content of a layer to the boundaries (pixels) of the layer directly beneath it. Excellent for filling text or shapes with textures. | Arrow pointing down to the layer below. |
+| **Smart Object** | A container that preserves an image's source content. Allows scaling, rotating, and filtering without permanent loss of resolution (non-destructive transformations). | Small icon in the thumbnail corner.  |
+| **Shape Layer** | Layers created by the Shape tools (Rectangle, Ellipse, Custom Shape). They are **vector-based** (resolution-independent) and defined by mathematical paths, not pixels. | Square with an anchor point icon. |
+| **Type Layer** | Layers created by the Type tool. They are also **vector-based** and remain editable until rasterized. | Large **T** icon. |
+
+***
+
+#### 5. Layer Operations (Layer Management)
+
+* **Linking Layers:** Select multiple layers and click the **chain link icon** at the bottom of the panel to link them. Moving one linked layer moves all of them.
+* **Grouping Layers:** Select layers and use **Ctrl/Cmd + G** to place them in a folder (Group). Groups help organize complex documents and allow blending modes/opacity to be applied to the entire group.
+* **Flattening:** Merging all visible layers into a single Background layer. This dramatically reduces file size but destroys the ability to edit layers individually (**destructive**). Usually done only for the final save.
+* **Merging Down:** Combining the active layer with the layer directly beneath it (**Ctrl/Cmd + E**).
+
+---
 
 ## Crop Tool Group
 
