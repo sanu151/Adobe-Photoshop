@@ -72,7 +72,7 @@ The power of Photoshop comes from its fundamental tools and architecture:
 | **7** | **Application Bar/Tabs** | Above the Document Window, showing "Untitled-1 @ 16.7% (RGB/8)". | Displays the name of the open document, its zoom level, color mode, and bit depth. |
 | **8** | **Window Controls** | Top right of the entire application (Minimize, Maximize, Close buttons). | Standard controls for managing the Photoshop application window. |
 
-* **layer** is like "Transparent Glass"
+> ### layer is like "Transparent Glass"
 ***
 
 ## Adobe Photoshop Toolbar
@@ -112,7 +112,7 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
-* **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
+> ## **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
 ---
 ## BASIC SELECTION TOOLS
 ---
