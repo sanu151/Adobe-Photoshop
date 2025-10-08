@@ -112,7 +112,7 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 |  | **Rectangle Tool** | **U** | Draws vector shapes. (Group includes **Ellipse, Polygon, Line, Custom Shape Tools**) |
 |  | **Zoom Tool** | **Z** | Magnifies or reduces the view of the image. |
 
-> ## **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
+> ### **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
 ---
 ## BASIC SELECTION TOOLS
 ---
@@ -326,6 +326,50 @@ The **Object Selection Tool** is a modern, AI-powered tool (introduced in recent
 | **Best for...** | Objects with high texture and clear boundaries. | Solid-colored backgrounds or simple, flat-toned shapes. | Complex, distinct subjects (people, animals, cars) in a photo. |
 
 ---
+## Colors Group
+
+The **Colors Group** in Adobe Photoshop refers to the section of the toolbar dedicated to selecting and managing the colors you use for painting, filling, and stroking in your image. This group contains the **Foreground** and **Background** color swatches, along with a few key controls for switching and resetting colors.
+
+## Colors Group Components
+
+<img width="3243" height="1713" alt="Color_tool" src="https://github.com/user-attachments/assets/d4682b68-2457-4152-9700-1f0df21eb3df" />
+
+
+| Element | Icon | Primary Function | Shortcut |
+| :--- | :--- | :--- | :--- |
+| **Foreground Color** | The top square swatch. | The color used by painting tools (Brush, Pencil, History Brush) and filling/stroking commands. | **D** (Resets to Default) |
+| **Background Color** | The bottom square swatch. | The color used when deleting content on a background layer, revealing content with a layer mask, or filling with the background color command. | **X** (Swaps with Foreground) |
+| **Default Foreground and Background Colors** | A small black and white swatch icon. | Resets the Foreground color to **Black** and the Background color to **White**. | **D** |
+| **Swap Foreground and Background Colors** | A small curved double-headed arrow. | Quickly exchanges the current Foreground and Background colors. | **X** |
+
+#### Color Panel
+
+<img width="672" height="511" alt="image" src="https://github.com/user-attachments/assets/53e7312a-6499-4293-8f26-7f73344dd057" />
+
+
+#### Key Notes on Usage
+
+#### 1. Setting and Selecting Colors
+
+* **To change a color:** Click on either the **Foreground** or **Background** swatch. This opens the **Color Picker** dialog box, allowing you to choose a new color visually, enter specific values (like Hex codes or RGB values), or select from a color library.
+* **Sampling from the Image:** When the Color Picker is open, you can move your cursor over the image (it turns into an Eyedropper) to sample any color directly from your artwork.
+
+#### 2. Practical Application
+
+* **Painting/Drawing:** When using the **Brush Tool (B)** or **Pencil Tool**, they will apply the **Foreground Color**.
+* **Filling Layers/Selections:**
+    * **Fill with Foreground Color:** **Alt + Delete** (Win) / **Option + Delete** (Mac)
+    * **Fill with Background Color:** **Ctrl + Delete** (Win) / **Command + Delete** (Mac)
+* **Gradients:** The **Gradient Tool (G)** often uses the Foreground and Background colors as the start and end points of a basic gradient.
+
+#### 3. Shortcuts (Essential)
+
+| Action | Shortcut (Windows) | Shortcut (Mac) |
+| :--- | :--- | :--- |
+| **Reset to Default** (Black Foreground, White Background) | **D** | **D** |
+| **Swap Foreground/Background** | **X** | **X** |
+
+---
 
 ## Crop Tool Group
 
@@ -343,6 +387,7 @@ The **Crop Tool Group** in Adobe Photoshop contains essential tools for adjustin
 | **Perspective Crop Tool** | **Shift + C** (cycle) | Corrects perspective distortion caused by shooting an object at an angle. | Geometric Correction |
 | **Slice Tool** | **Shift + C** (cycle) | Divides an image into smaller, optimized sections for web export. | Web Layout and Export |
 | **Slice Select Tool** | **Shift + C** (cycle) | Selects, moves, and modifies the slices created by the Slice Tool. | Web Layout Management |
+
 
 #### 1. Crop Tool (C)
 
