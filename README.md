@@ -115,7 +115,36 @@ Most tool icons have a small triangle in the corner, indicating that other relat
 > ### **Zoom in / Zoom out** : **"ctrl" + "+" / "ctrl" + "-"** or **"Alt" + "Wheel &uarr;" / "Wheel &darr;" 
 ---
 ## BASIC SELECTION TOOLS
+
+Here is a table summarizing the basic selection tool groups and their primary shortcuts in Adobe Photoshop:
+
+#### Basic Selection Tools Shortcut Table
+
+| Tool Group | Primary Tool Name | Shortcut | Cycle Tool (Secondary Shortcut) |
+| :--- | :--- | :--- | :--- |
+| **Marquee Tools** | **Rectangular Marquee Tool** | **M** | **Shift + M** |
+| | **Elliptical Marquee Tool** | (Cycle with Shift + M) | **Shift + M** |
+| **Lasso Tools** | **Lasso Tool** | **L** | **Shift + L** |
+| | **Polygonal Lasso Tool** | (Cycle with Shift + L) | **Shift + L** |
+| | **Magnetic Lasso Tool** | (Cycle with Shift + L) | **Shift + L** |
+| **Object/Quick Selection Tools** | **Quick Selection Tool** | **W** | **Shift + W** |
+| | **Magic Wand Tool** | (Cycle with Shift + W) | **Shift + W** |
+| | **Object Selection Tool** | (Cycle with Shift + W) | **Shift + W** |
+
+
+#### General Selection Shortcut Notes
+
+These shortcuts apply to an active selection regardless of the tool used:
+
+| Action | Shortcut (Windows) | Shortcut (Mac) |
+| :--- | :--- | :--- |
+| **Deselect All** | **Ctrl + D** | **Command + D** |
+| **Reselect Last Selection** | **Ctrl + Shift + D** | **Command + Shift + D** |
+| **Inverse Selection** | **Ctrl + Shift + I** | **Command + Shift + I** |
+| **Move Selection Outlines** | Hold **Ctrl** (Win) / **Command** (Mac) | Hold **Ctrl** (Win) / **Command** (Mac) |
+| **Move Selection While Drawing** | Hold **Spacebar** | Hold **Spacebar** |
 ---
+
 ## Marquee Tool Group Overview
 
 <img width="300" height="116" alt="image" src="https://github.com/user-attachments/assets/9324510a-d6cd-4f1f-9d37-26dd99dbfc91" />
