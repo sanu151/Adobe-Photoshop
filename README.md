@@ -435,7 +435,7 @@ The Layers Panel is the control center for managing all layers in your document.
 | ⚫ | **Add Adjustment Layer** | Creates a layer for color and tone adjustments (e.g., Hue/Saturation, Curves). |
 | $\text{fx}$ | **Add Layer Style** | Opens dialog to add effects like Drop Shadow, Stroke, Bevel & Emboss. |
 
-***
+
 
 #### 3. Layer Properties
 
@@ -461,7 +461,37 @@ They are categorized based on their function:
 | **Inversion** | Difference, Exclusion | Compares colors for artistic/abstract effects. |
 | **Component** | Hue, Saturation, **Color**, Luminosity | Blends only specific color components (e.g., the hue from the top layer but the brightness from the bottom). |
 
-***
+#### C. Lock Layers
+
+Locking layers in Adobe Photoshop is a critical function for protecting specific layer content from accidental or unwanted edits. You can lock layers using various options in the **Layers Panel**, which allow you to control exactly what kind of editing is prevented.
+
+##### 1. How to Lock Layers
+
+The lock controls are located at the top of the **Layers Panel**, just above the layer list.
+
+1.  **Select the Layer:** Click on the layer you want to protect.
+2.  **Apply Lock:** Click the desired lock icon(s) to activate protection. When any lock is active, the main **Lock icon** ($\text{🔒}$) on the far right will appear.
+
+##### 2. Layer Lock Options
+
+Photoshop offers four specific lock options, plus a master lock:
+
+| Icon | Lock Type | Description |
+| :---: | :--- | :--- |
+| 🖌️ | **Lock Transparent Pixels** (Lock $\text{Opacity}$) | Prevents you from painting or editing any transparent area of the layer. You can only apply paint, filters, or adjustments to areas that *already contain pixels*. |
+| 🎨 | **Lock Image Pixels** (Lock $\text{Image}$) | Prevents you from changing the color or tone of existing pixels. This stops all painting, brush, fill, and filter operations on the layer. |
+| ↔️ | **Lock Position** (Lock $\text{Position}$) | Prevents the layer content from being moved when using the **Move Tool (V)**. It locks the layer's position on the canvas. |
+| 🖼️ | **Lock All** (Lock $\text{Artboards and Frames}$) | Locks everything, including transparent pixels, image pixels, and position. This is the complete protection lock. It is often labeled as "Lock All" in the newer Photoshop versions, especially for artboards and frames. |
+| $\text{🔒}$ | **Master Lock Indicator** | This large icon lights up whenever any of the specific locks (Opacity, Image, Position) are active, indicating the layer is protected. |
+
+##### 3. Practical Use Cases
+
+| Lock Type | Example Use Case | Benefit |
+| :--- | :--- | :--- |
+| **Lock Transparent Pixels** ($\text{🖌️}$) | Coloring a line drawing. | Allows you to quickly paint and color within the lines of a sketch without worrying about painting outside the edges. |
+| **Lock Image Pixels** ($\text{🎨}$) | Protecting a finished texture layer. | Ensures you don't accidentally paint or apply a filter to a crucial element that should not change visually. |
+| **Lock Position** ($\text{↔️}$) | Securing a background or a grid layout. | Keeps essential, perfectly placed elements from being nudged or dragged out of position. |
+| **Lock All** ($\text{🖼️}$) | Protecting a completed logo or final text. | Total security for an element that is finished and correctly placed, ensuring no further modification. |
 
 #### 4. Special Layer Types
 
