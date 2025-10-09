@@ -800,7 +800,7 @@ The **Clone Stamp Tool (S)** in Adobe Photoshop is a retouching tool used to dup
 
 #### 1. Sampling the Source Point
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e32ec258-b632-4d40-81d7-2a4d5a07ba17" />
+<img width="819" height="639" alt="image" src="https://github.com/user-attachments/assets/2c9441da-1791-4282-bc95-268198255c40" />
 
 
 * **Define Source:** Activate the Clone Stamp Tool, hold **Alt** (Windows) or **Option** (Mac), and click once on the area you want to copy.
