@@ -780,3 +780,83 @@ These checkboxes toggle advanced characteristics that modify the brush stroke as
 * **Masking:** Painting in **Layer Masks** (Black to hide, White to reveal) for non-destructive local adjustments.
 * **Retouching:** Used in conjunction with tools like the Healing Brush or Clone Stamp to blend tones and textures.
 * **Creating Effects:** Applying custom brushes (e.g., leaves, smoke, grunge) to add texture and detail.
+
+---
+
+## Clone Stamp Tool (S)
+
+The **Clone Stamp Tool (S)** in Adobe Photoshop is a retouching tool used to duplicate (or "clone") pixels from one area of an image to another area. This allows you to hide unwanted objects, repair defects, or introduce repeated elements into a scene.
+
+<img width="373" height="342" alt="image" src="https://github.com/user-attachments/assets/1e449b11-a7fc-4f63-a08b-ef7e6b350d37" />
+
+| Property | Description |
+| :--- | :--- |
+| **Shortcut** | **S** |
+| **Primary Function** | Paints a sampled area of the image over another area, effectively duplicating content. |
+| **Sampling Source** | You must first define a **source point** to clone from by holding **Alt** (Windows) or **Option** (Mac) and clicking. |
+| **Non-Destructive Method** | For professional work, cloning should be done on a **new, empty layer** with the **Sample** option set to "Current & Below" or "All Layers." |
+
+### Key Usage and Controls
+
+#### 1. Sampling the Source Point
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e32ec258-b632-4d40-81d7-2a4d5a07ba17" />
+
+
+* **Define Source:** Activate the Clone Stamp Tool, hold **Alt** (Windows) or **Option** (Mac), and click once on the area you want to copy.
+* **The Crosshair:** When you begin painting on the target area, a **crosshair** appears at the source point. This crosshair moves simultaneously with your brush, indicating which pixels are currently being cloned.
+* **Re-sampling:** You can re-sample a new source point at any time by holding **Alt/Option** and clicking again.
+
+#### 2. Options Bar Settings
+
+The Options Bar at the top of the screen provides controls specific to the Clone Stamp Tool:
+
+<img width="1243" height="62" alt="image" src="https://github.com/user-attachments/assets/a0a42bd2-c3a9-4a03-b052-ad736dad312f" />
+
+* **Mode (Blending Mode):** Determines how the cloned pixels interact with the underlying target pixels (e.g., set to **Normal** for a straight copy, or **Multiply** to darken the cloned area).
+* **Opacity and Flow:** Control the transparency and rate of application of the cloned content, similar to the Brush Tool.
+* **Aligned:**
+    * **Checked (Default):** The crosshair **retains its distance** from the brush position. If you lift the mouse and start painting again, the cloning resumes from the exact next pixel in the original source area.
+    * **Unchecked:** Every time you lift the mouse and start painting again, the cloning **resets** to the exact source point you initially sampled with Alt/Option-click.
+* **Sample:** This is crucial for non-destructive editing:
+    * **Current Layer:** Clones only from the pixels on the active layer.
+    * **Current & Below:** Clones from the active layer and all visible layers beneath it. **(Recommended for non-destructive editing on a new, empty layer).**
+    * **All Layers:** Clones from all visible layers in the document.
+
+#### 3. The Clone Source Panel (Window > Clone Source)
+
+<img width="315" height="382" alt="image" src="https://github.com/user-attachments/assets/d91c492c-39eb-4d5b-bb71-93ad2f17ac9a" />
+
+The panel is designed to manage up to five different source points and allow for precise manipulation of the cloned content before it's applied to the canvas.
+
+### 1. Source Presets and Management
+
+* **Five Source Icons (Top):** Allows you to store and quickly switch between up to **five different source points** that you have sampled using the Alt/Option-click method.
+* **Source File Name:** Displays the name of the image file from which the current source pixels were sampled.
+
+
+#### 2. Transformation Controls
+
+These controls allow you to transform the cloned content relative to the source area, without affecting the brush size or the target area.
+
+* **Source Coordinates (X and Y):** Displays and allows you to manually adjust the **exact pixel location** of the sampled source point.
+* **Width (W) and Height (H):** Allows you to **scale** the cloned pixels. You can make the cloned content larger or smaller than the original source pixels.
+    * The **link icon** (🔒) between W and H allows you to **constrain the proportions** when scaling.
+* **Rotation:** Allows you to **rotate** the cloned source content before painting it onto the target layer.
+
+
+#### 3. Overlay and Alignment Options
+
+These settings govern the visual feedback and alignment of the source.
+
+* **Show Overlay:** When checked, a **transparent preview** of the source content is displayed inside the brush tip as you paint, aiding in precise alignment and placement.
+    * **Opacity:** Controls the transparency level of the overlay preview.
+    * **Mode:** Sets the blending mode for how the overlay preview interacts with the canvas (e.g., Normal, Multiply).
+* **Clipped:** When checked, the overlay is confined to the boundaries of the brush circle.
+* **Auto Hide:** Hides the overlay preview when you are actively painting.
+* **Invert:** Inverts the colors of the overlay preview, which can help visibility when working with similar colors.
+* **Frame Offset / Lock Frame:** (Often used in video or animation workflows) Controls how the source frame advances or remains locked.
+
+  ---
+
+  
