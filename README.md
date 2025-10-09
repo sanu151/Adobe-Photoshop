@@ -672,3 +672,111 @@ The **Artboard Tool** is used to create and manipulate a special type of layer c
 | **Purpose** | Arranging elements **on** the canvas or artboard. | Setting up and managing multiple, separate canvases (artboards) **within** one file. |
 | **Activation** | Default on **V**. Temporarily activated with **Ctrl/Command**. | Grouped with the Move Tool; typically accessed by holding the Move Tool or using **Shift + V**. |
 | **Artboard Interaction** | Moves the **contents** *inside* the artboard. | Moves the **entire artboard** and its contents across the workspace. |
+
+---
+
+## Brush Tool (B)
+
+The **Brush Tool (B)** is one of the most fundamental and versatile tools in Adobe Photoshop, used for painting, drawing, applying color, and manipulating masks directly onto an image layer.
+
+<img width="376" height="352" alt="image" src="https://github.com/user-attachments/assets/08887bfd-91d4-4d77-9bcf-ea64b2dfa47e" />
+
+
+### Basic Brush Tool (B) Notes
+
+| Property | Description |
+| :--- | :--- |
+| **Shortcut** | **B** |
+| **Primary Function** | Paints with the currently selected **Foreground Color** onto a layer. |
+| **Painting Layer** | Always paints on the currently **active layer**. Ensure you're not painting directly on a Smart Object or Adjustment Layer without a mask. |
+| **Brush Color** | Uses the **Foreground Color** (the top color swatch in the toolbar). Use the **X** key to quickly swap the Foreground and Background colors. |
+
+***
+
+## Key Controls and Shortcuts
+
+| Action | Shortcut (Windows/Mac) | Effect |
+| :--- | :--- | :--- |
+| **Increase Brush Size** | **]** (Right Bracket) | Makes the brush tip larger. |
+| **Decrease Brush Size** | **[** (Left Bracket) | Makes the brush tip smaller. |
+| **Increase Brush Hardness** | **Shift + ]** | Makes the brush edge sharper (harder). |
+| **Decrease Brush Hardness** | **Shift + [** | Makes the brush edge softer (feathered). |
+| **Switch to Eraser** | **E** | Quickly switches to the Eraser Tool to remove paint. |
+| **Color Picker** | Hold **Alt/Option** (while Brush Tool is active) | Temporarily switches to the Eyedropper Tool to sample a color from the image. |
+| **Straight Lines** | Click, then hold **Shift** and click again. | Draws a perfectly straight line between the two clicks. |
+
+> **Alt + right click + Drag Mouse Horizontaly to change Brush Size**
+> **Alt + right click + Drag Mouse Verticaly to change Brush Hardness**
+> **Eraser also have same property like Brush**
+
+#### Options Bar Settings
+
+The options bar, located at the top of the Photoshop interface when the Brush Tool is active, offers crucial controls for customizing the brush stroke:
+
+<img width="1202" height="60" alt="image" src="https://github.com/user-attachments/assets/dd841051-bd28-4a49-ab90-dce27f594298" />
+
+1.  **Brush Preset Picker:**
+    * Allows you to select from various pre-loaded brushes (General, Dry Media, Wet Media, etc.).
+    * Use the drop-down menu to quickly adjust **Size** and **Hardness**.
+
+2.  **Mode (Blending Mode):**
+    * Determines how the brush color interacts with the existing pixels on the layer.
+    * Commonly used modes: **Normal**, **Multiply** (for shadows), and **Screen** (for highlights).
+
+3.  **Opacity:**
+    * Controls the transparency of the paint applied. A lower opacity means the paint is more transparent.
+    * **Quick Control:** Press a number key (e.g., **5** for $50\%$, **0** for $100\%$) to set the opacity quickly.
+
+4.  **Flow:**
+    * Controls how quickly the paint is laid down as you drag the mouse.
+    * Unlike Opacity (which is the final transparency), Flow is like the speed of ink coming out of a pen. Dragging over the same area builds up color if Flow is less than $100\%$.
+
+5.  **Smoothing:**
+    * Adds a lag to the brush stroke to help reduce jitter and create smoother curves, especially useful when drawing with a mouse or a shaky hand.
+
+#### Brush Settings Panel (F5)
+
+<img width="460" height="697" alt="image" src="https://github.com/user-attachments/assets/992ebe79-ba67-4a84-aaf1-e58d966f849d" />
+
+For advanced control, the **Brush Settings Panel** (Window > Brush Settings, or press **F5**) allows detailed customization of the brush tip:
+
+
+#### 1. Brushes and Brush Tip Shape
+
+* **Brushes Tab:** Allows for the selection of various **brush presets** with different textures, shapes, and behaviors (e.g., hard round, scattered, leaf-shaped). The panel shows a grid of available brush tips.
+* **Size:** A slider to manually adjust the diameter of the brush tip.
+* **Flip X / Flip Y:** Options to flip the brush shape horizontally or vertically.
+* **Angle and Roundness:** Controls to change the orientation and flatness of non-circular brush tips.
+    * **Angle:** Defines the rotation of the brush tip.
+    * **Roundness:** Defines how compressed the brush tip is along one axis (a lower value creates an elliptical shape).
+* **Hardness:** A slider to control the sharpness or feathering of the brush edge. A higher value means a sharper edge.
+* **Spacing:** Controls the distance between the brush marks in a single continuous stroke. A lower percentage results in a smoother, more continuous line.
+
+
+#### 2. Dynamics and Behavior Checkboxes
+
+These checkboxes toggle advanced characteristics that modify the brush stroke as you paint, often in relation to a drawing tablet's pressure or stylus tilt.
+
+| Setting | Function |
+| :--- | :--- |
+| **Brush Tip Shape** | The base section for defining the size, hardness, and shape of the brush. |
+| **Shape Dynamics** | Controls how the size, angle, and roundness of the brush tip vary during a stroke (e.g., fading over distance or controlled by pressure). |
+| **Scattering** | Distributes the brush marks randomly around the cursor path, ideal for effects like spray, foliage, or particles. |
+| **Texture** | Applies a second pattern or texture to the brush stroke for a more complex, textured look. |
+| **Dual Brush** | Combines two brush tips to create a combined effect, using one brush to define the shape and the second to define the texture or mask. |
+| **Color Dynamics** | Varies the foreground and background colors applied during the stroke, useful for organic or varied color effects. |
+| **Transfer** (or Other Dynamics) | Controls the variation of **Opacity** and **Flow** within a stroke, often linked to pen pressure. |
+| **Smoothing** | Adds a slight lag to the brush stroke to help reduce visible jitter and produce smoother, more elegant curves. |
+| **Wet Edges / Build-up** | Specific controls for simulating natural media effects, like watercolor bleeding or layered paint build-up. |
+
+
+#### 3. Preview Window
+
+* A large area at the bottom of the panel displays a **live preview** of the currently selected brush tip and its current settings, allowing the user to see how the stroke will appear before painting on the canvas.
+
+#### Common Brush Tool Uses
+
+* **Digital Painting:** Used for drawing, sketching, and rendering artwork.
+* **Masking:** Painting in **Layer Masks** (Black to hide, White to reveal) for non-destructive local adjustments.
+* **Retouching:** Used in conjunction with tools like the Healing Brush or Clone Stamp to blend tones and textures.
+* **Creating Effects:** Applying custom brushes (e.g., leaves, smoke, grunge) to add texture and detail.
