@@ -859,4 +859,59 @@ These settings govern the visual feedback and alignment of the source.
 
   ---
 
-  
+## Healing Tools Group
+
+  The **Healing Tools Group** in Adobe Photoshop is a collection of powerful retouching tools primarily used to correct blemishes, imperfections, and unwanted content in images seamlessly. Unlike the Clone Stamp Tool, which just duplicates pixels, healing tools blend the texture, lighting, and shading of the source area with the target area for a natural, integrated repair.
+
+#### Healing Tool Group Overview (J)
+
+<img width="287" height="163" alt="image" src="https://github.com/user-attachments/assets/9bdf8597-1204-43ad-98a3-b7be5537b3a1" />
+
+| Tool Name | Shortcut | Primary Function | Key Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Spot Healing Brush Tool** | **J** | Quickly removes small spots, blemishes, or objects with a single click. | Content-Aware |
+| **Healing Brush Tool** | **Shift + J** (cycle) | Repairs larger, custom areas by sampling a source point and painting over the target. | Sampled Blending |
+| **Patch Tool** | **Shift + J** (cycle) | Repairs a selected area by dragging the selection to a different source area for texture, then applying the blended fix back to the target. | Selection-Based |
+| **Red Eye Tool** | **Shift + J** (cycle) | Removes the red reflection (red-eye effect) often seen in flash photography. | Tone Correction |
+
+
+### 1. Spot Healing Brush Tool (J)
+
+This is the fastest and most automated healing tool, best for small, well-defined flaws.
+
+* **Usage:** Simply click or paint a small stroke over the flaw (like a dust spot or blemish).
+* **Mechanism:** The tool analyzes the surrounding area and automatically guesses the best source texture and color to use to cover the spot. No sampling is required.
+* **Options Bar: Type**
+    * **Content-Aware:** (Best choice) Compares the nearby content to synthesize a realistic replacement.
+    * **Create Texture:** Uses pixels around the edge of the stroke to create a texture pattern.
+    * **Proximity Match:** Uses the pixels immediately surrounding the edge of the stroke.
+
+### 2. Healing Brush Tool (Shift + J)
+
+This tool gives the user more control over the source of the repair, making it suitable for larger or more complex repairs.
+
+* **Usage:**
+    1.  Hold **Alt** (Windows) or **Option** (Mac) and **click** to set the desired **source point** (like the Clone Stamp Tool).
+    2.  Paint over the unwanted area (the target).
+* **Mechanism:** It copies the **texture and structure** from the source point but intelligently blends the **color and luminance (lighting/shading)** of the target area, resulting in a seamless repair that matches the original lighting.
+
+### 3. Patch Tool (Shift + J)
+
+The Patch Tool is unique because it works on selections rather than with a brush.
+
+* **Usage:**
+    1.  Use the mouse to **select** the area you want to repair (the target).
+    2.  Switch to the Patch Tool.
+    3.  **Drag** the selection outline to a clean area of the image (the source) whose texture you want to use.
+    4.  Release the mouse; Photoshop instantly applies the texture of the source area to the target area, blending colors and tones.
+* **Mode Options:**
+    * **Normal:** Repairs the selected area with a seamless texture blend.
+    * **Content-Aware:** Provides a more fluid transition by attempting to seamlessly merge content from a nearby area.
+
+### 4. Red Eye Tool (Shift + J)
+
+This is a specific tool designed solely to fix the red pupil effect.
+
+* **Usage:** Simply click and drag a small selection box around the red pupil of the eye.
+* **Mechanism:** The tool detects the red pixels and desaturates them while darkening them to a natural black/gray, fixing the common camera flash issue.
+
