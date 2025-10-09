@@ -829,7 +829,7 @@ The Options Bar at the top of the screen provides controls specific to the Clone
 
 The panel is designed to manage up to five different source points and allow for precise manipulation of the cloned content before it's applied to the canvas.
 
-### 1. Source Presets and Management
+#### 1. Source Presets and Management
 
 * **Five Source Icons (Top):** Allows you to store and quickly switch between up to **five different source points** that you have sampled using the Alt/Option-click method.
 * **Source File Name:** Displays the name of the image file from which the current source pixels were sampled.
