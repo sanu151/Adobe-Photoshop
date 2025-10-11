@@ -1000,3 +1000,106 @@ This tool is used for relocating an object within an image, automatically fillin
 
 ---
 
+## Eraser Tool Group Overview (E)
+
+The **Eraser Tool Group (E)** in Adobe Photoshop contains three distinct tools designed for removing or modifying pixels on a layer. Unlike using a Layer Mask, these tools **destructively** remove or change the underlying pixel data.
+
+<img width="282" height="86" alt="image" src="https://github.com/user-attachments/assets/7bd5d246-19c0-4451-bd1b-e172cb4c3ced" />
+
+| Tool Name | Shortcut | Primary Function | Mechanism |
+| :--- | :--- | :--- | :--- |
+| **Eraser Tool** | **E** | Permanently deletes pixels on a layer, revealing the transparency or the layer beneath. | Destructive Brush |
+| **Background Eraser Tool** | **Shift + E** (cycle) | Erases areas of similar color, used primarily to knock out backgrounds. | Color-Sampling Brush |
+| **Magic Eraser Tool** | **Shift + E** (cycle) | Deletes all adjacent pixels of a similar color with a single click (like the Magic Wand, but deletes). | Color-Selection |
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb35cd7c-bec9-47eb-9ebc-b1d6754666c9" />
+
+
+#### 1. Eraser Tool (E)
+
+The basic Eraser Tool functions just like a brush, but instead of adding color, it removes pixels.
+
+* **Mode:** Can be set in the Options Bar to function as a **Brush**, **Pencil**, or **Block**.
+    * **Brush Mode:** Allows control over size, hardness, and shape, similar to the Brush Tool (B).
+* **Result on Layer Types:**
+    * **Standard Layer:** Erases pixels to **transparency** (represented by the checkerboard pattern).
+    * **Background Layer:** If used on a locked "Background" layer, it erases to the current **Background Color** (the bottom swatch in the toolbar) instead of transparency. To erase to transparency, the Background Layer must first be converted to a regular layer (by clicking the lock icon).
+* **Opacity and Flow:** Controls the intensity of the erasure. Lower opacity/flow means you have to brush over the area multiple times for full removal.
+
+
+#### 2. Background Eraser Tool (Shift + E)
+
+This tool is optimized for separating a foreground object from a background by selectively erasing similar colors.
+
+* **Mechanism:** It works by continuously sampling the color under the cursor's **center point** (the "hotspot") and only erasing pixels within the brush circle that match that sampled color.
+* **Options Bar Controls:**
+    * **Limits:** Defines how pixels are evaluated against the sampled color:
+        * **Contiguous:** Erases only contiguous areas of the sampled color.
+        * **Discontiguous:** Erases all pixels matching the sampled color under the brush, regardless of where they are touching.
+        * **Find Edges:** Best setting; attempts to keep the sharp edges of the foreground object intact.
+    * **Tolerance:** The range of color similarity allowed for the erasure. A **low tolerance** (e.g., 20) erases only colors very similar to the sample; a **high tolerance** (e.g., 70) erases a wider range of colors.
+    * **Sampling:** Determines how the tool samples the color to be deleted: **Once**, **Continuous**, or **Background Swatch**.
+
+
+#### 3. Magic Eraser Tool (Shift + E)
+
+This tool is the destructive counterpart to the Magic Wand Tool. It deletes large, solid-colored areas with a single click.
+
+* **Usage:** Click once on an area of color to delete all adjacent (or non-adjacent) pixels of similar color.
+* **Options Bar Controls:**
+    * **Tolerance:** Controls the range of color similarity. A higher tolerance deletes a wider variety of colors.
+    * **Anti-alias:** Smooths the edges of the erased area.
+    * **Contiguous:** When **checked** (default), it only deletes pixels adjacent to the clicked spot. When **unchecked**, it deletes all pixels of similar color across the entire layer, regardless of adjacency.
+    * **Sample All Layers:** If checked, it uses pixels from all visible layers to calculate which color to delete, but the erasure still only happens on the currently active layer.
+
+  ---
+
+## Blur, Sharpen, and Smudge Tools
+
+  The **Blur, Sharpen, and Smudge Tools** are a set of specialized painting tools in Adobe Photoshop, often grouped together in the toolbar, used to locally modify the focus, contrast, or color distribution of pixels in an image. They are sometimes referred to as "focus tools" or "finger-painting tools."
+
+They all share the same shortcut: **R** (in some versions, they may be grouped under another icon, but you cycle through them with a shared shortcut).
+
+<img width="198" height="85" alt="image" src="https://github.com/user-attachments/assets/851d4eba-25b4-4f64-8e57-24a2897a6a9d" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/47672592-8a19-402a-9e09-b50a263515e2" />
+
+#### 1. Blur Tool
+
+The Blur Tool is used to soften sharp edges or reduce fine detail in specific areas of an image.
+
+* **Primary Function:** Decreases the contrast between adjacent pixels, making the area appear smoother or out of focus.
+* **Mechanism:** It works by mixing neighboring pixels together, effectively reducing detail.
+* **Options Bar Controls:**
+    * **Mode:** Controls the blending of the blur effect. Usually left on **Normal**.
+    * **Strength:** Determines the intensity of the blur effect (the amount of mixing). A higher strength value applies a more significant blur with each stroke.
+    * **Sample All Layers:** When checked, the tool uses data from all visible layers but still applies the blur effect destructively only to the **active layer**.
+
+
+#### 2. Sharpen Tool
+
+The Sharpen Tool increases contrast along edges in a local area, making details appear clearer and more defined.
+
+* **Primary Function:** Increases the difference in tone/color between adjacent pixels, enhancing edges and detail.
+* **Mechanism:** It is the opposite of the Blur Tool, primarily targeting areas of high contrast to make them stand out.
+* **Caution:** Can quickly introduce **noise** or bright halos (artifacting) if overused, especially on areas with fine texture.
+* **Options Bar Controls:**
+    * **Strength:** Controls the intensity of the sharpening effect.
+    * **Protect Detail:** (Recommended to keep checked) Helps minimize the introduction of excessive noise and artifacts while sharpening.
+
+
+#### 3. Smudge Tool
+
+The Smudge Tool pushes and drags pixels across the canvas, simulating the effect of dragging wet paint with a finger.
+
+* **Primary Function:** Distorts the image by pushing color from the starting point of the stroke in the direction of the drag.
+* **Mechanism:** It picks up the color under the cursor and smears it along the path of the stroke.
+* **Options Bar Controls:**
+    * **Strength:** Controls the force of the smudge effect. A higher strength makes the pixels drag farther and mix more intensely.
+    * **Finger Painting:** When checked, the tool uses the current **Foreground Color** at the very beginning of the stroke before it starts smudging the image pixels. When unchecked, it only smudges the existing image pixels.
+
+#### General Tool Notes (Shared)
+
+* All three tools are **destructive**; they directly change the pixel data on the active layer.
+* They all function like the **Brush Tool (B)**, allowing control over **Size** (using **[** and **]** keys) and **Hardness** in the Options Bar.
+* It is often best practice to use these tools on a **duplicate layer** so that the original image data remains protected.
