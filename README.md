@@ -915,3 +915,77 @@ This is a specific tool designed solely to fix the red pupil effect.
 * **Usage:** Simply click and drag a small selection box around the red pupil of the eye.
 * **Mechanism:** The tool detects the red pixels and desaturates them while darkening them to a natural black/gray, fixing the common camera flash issue.
 
+---
+
+## Content-Aware Technology
+
+### 1. Traditional Content-Aware (Select Area + Fill Shortcut)
+
+This is the fastest, oldest, and most basic way to use Content-Aware technology, often sufficient for simple spot removals.
+
+<img width="452" height="383" alt="image" src="https://github.com/user-attachments/assets/7ad5337b-be31-4520-a72e-c2a99d2142dc" />
+
+
+| Action | Steps | Result |
+| :--- | :--- | :--- |
+| **Selection** | Use any selection tool (Lasso, Marquee, Quick Selection) to draw a selection tightly around the object you want to remove. | Isolates the unwanted content. |
+| **Command** | Go to **Edit > Fill...** or press **Shift + F5**. In the dialog box that appears, set the **Contents** dropdown to **Content-Aware**. | The selected area is immediately filled with synthesized content. |
+| **Shortcut** | After making a selection, simply press **Delete** or **Backspace**. In the subsequent dialog, ensure **Content-Aware** is selected. | A fast, one-step removal of the selected content based on surrounding pixels. |
+| **Limitation** | You have **no control** over which specific surrounding areas Photoshop uses as the source texture. It works best when the surrounding area is uniform (e.g., sky, grass, sand). |
+
+The phrase "**preserve transparency**" is a key option in various Photoshop tools and commands, but when specifically referring to **Content-Aware** functions, it relates to the **Fill command**.
+
+It ensures that the Content-Aware process **only affects the opaque (non-transparent) pixels** within the selection and does not introduce new color or content into the areas that are already transparent on the active layer.
+
+
+#### Preserve Transparency in Content-Aware Fill
+
+<img width="658" height="720" alt="image" src="https://github.com/user-attachments/assets/9ab41c9b-6e7a-4b4f-8d68-d66e851eb35e" />
+
+
+The "Preserve Transparency" option is most commonly encountered and applied in the following context:
+
+##### 1. Using the Fill Dialog (Edit > Fill or Shift + F5)
+
+When you use the basic **Fill** command to apply Content-Aware filling to a selection:
+
+* **Scenario:** You have a selection on a layer that contains both colored pixels and transparent areas (or a layer mask is active).
+* **Location:** In the **Fill** dialog box, under the **Blending** section, the **Preserve Transparency** checkbox controls how the fill interacts with the layer's existing transparency.
+* **Effect:** When **checked**, the Content-Aware algorithm is restricted to synthesizing new pixels only in the areas of the selection where pixels already exist (i.e., it preserves the alpha channel). If you were to fill a selection on an empty part of a layer, nothing would happen.
+
+##### 2. Using the Content-Aware Fill Workspace
+
+While the dedicated **Content-Aware Fill workspace** (**Edit > Content-Aware Fill**) does not typically have a "Preserve Transparency" checkbox in the standard sense, its behavior is functionally similar when working on non-background layers:
+
+* **Selection:** The fill operation is fundamentally **constrained by your initial selection** and the boundaries of the image.
+* **New Layer Output:** By setting the **Output To** option to **New Layer** (the recommended non-destructive method), you inherently preserve the transparency of the original layer, as the filled content is generated on a separate, fresh layer.
+
+
+### 2. Content-Aware Fill (Dedicated Workspace)
+
+This is the advanced, dedicated environment for complex object removal, offering comprehensive control over the process.
+
+<img width="1392" height="820" alt="image" src="https://github.com/user-attachments/assets/6add15c0-fe60-4b9f-83fc-d40a7edb3780" />
+
+
+| Feature | Description | Key Controls |
+| :--- | :--- | :--- |
+| **Purpose** | To remove large or complex objects seamlessly by allowing the user to precisely guide the algorithm's sampling. | Accessed via **Edit > Content-Aware Fill**. |
+| **Preview Window** | Displays the result of the fill in real-time, allowing immediate feedback as you adjust the sampling area. | Located on the right side of the workspace. |
+| **Sampling Brush** | A green overlay in the main image window shows the areas Photoshop is currently using as the source. Use the Sampling Brush (on the left toolbar) to **paint away** areas you *don't* want to be used as a source. | **Green Overlay** = Source Area. Painting with the brush **removes** areas from the source. |
+| **Settings Panel** | Controls the fidelity and blending of the output: | Located on the right side of the workspace. |
+| **Color Adaptation** | Adjusts how strictly the fill adheres to surrounding colors and brightness. Use for areas with significant light changes (e.g., shadows). |
+| **Output To** | Determines where the final content is placed: **New Layer** (recommended for non-destructive editing), **Duplicate Layer**, or **Current Layer**. |
+
+
+### 3. Content-Aware Move Tool
+
+This tool is used for relocating an object within an image, automatically filling the original hole and blending the object into the new background.
+
+| Setting | Function | Recommended Use |
+| :--- | :--- | :--- |
+| **Mode: Move** | Relocates the selected object to a new spot. The original area is automatically filled using Content-Aware technology. | Moving a person, animal, or small item to improve composition. |
+| **Mode: Extend** | Duplicates the selected area, then places the copy in a new location, often used to extend patterns or backgrounds. | Lengthening a cloud or extending a repeating texture. |
+| **Structure** | Controls how closely the moved object maintains its original shape and integrity in the new location. | Use a **higher value** (e.g., 7) to preserve crisp edges. |
+| **Color** | Controls how much the moved object's color and texture are blended with the new surrounding background. | Use a **higher value** (e.g., 7) for seamless blending when moving an object over a textured background. |
+| **Adaptation** | Defines the blending method. **Very Loose** works best for uniform backgrounds; **Very Strict** works best for complex, high-detail backgrounds. |
