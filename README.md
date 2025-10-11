@@ -961,26 +961,34 @@ While the dedicated **Content-Aware Fill workspace** (**Edit > Content-Aware Fil
 * **New Layer Output:** By setting the **Output To** option to **New Layer** (the recommended non-destructive method), you inherently preserve the transparency of the original layer, as the filled content is generated on a separate, fresh layer.
 
 
-### 2. Content-Aware Fill (Dedicated Workspace)
-
-This is the advanced, dedicated environment for complex object removal, offering comprehensive control over the process.
-
-<img width="1392" height="820" alt="image" src="https://github.com/user-attachments/assets/6add15c0-fe60-4b9f-83fc-d40a7edb3780" />
+### 2. Content-Aware Fill 
 
 
-| Feature | Description | Key Controls |
-| :--- | :--- | :--- |
-| **Purpose** | To remove large or complex objects seamlessly by allowing the user to precisely guide the algorithm's sampling. | Accessed via **Edit > Content-Aware Fill**. |
-| **Preview Window** | Displays the result of the fill in real-time, allowing immediate feedback as you adjust the sampling area. | Located on the right side of the workspace. |
-| **Sampling Brush** | A green overlay in the main image window shows the areas Photoshop is currently using as the source. Use the Sampling Brush (on the left toolbar) to **paint away** areas you *don't* want to be used as a source. | **Green Overlay** = Source Area. Painting with the brush **removes** areas from the source. |
-| **Settings Panel** | Controls the fidelity and blending of the output: | Located on the right side of the workspace. |
-| **Color Adaptation** | Adjusts how strictly the fill adheres to surrounding colors and brightness. Use for areas with significant light changes (e.g., shadows). |
-| **Output To** | Determines where the final content is placed: **New Layer** (recommended for non-destructive editing), **Duplicate Layer**, or **Current Layer**. |
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/4a8133ae-a3ae-4257-a650-edf38d663576" />
+
+<img width="606" height="391" alt="image" src="https://github.com/user-attachments/assets/b183d59c-7fab-49d2-86e6-84fd461a2d99" />
+
+This is the fastest method, best suited for simple removals against uniform backgrounds (like sky or grass).
+
+* **Select:** Use any selection tool (Lasso, Marquee, etc.) to select the object you wish to remove.
+
+* **Access Fill:** Go to Edit > Fill... or use the shortcut Shift + F5 (Windows/Mac).
+
+* **Apply:** In the Fill dialog box, set the Contents dropdown to Content-Aware.
+
+* **Result:** Photoshop analyzes the immediate surroundings of the selection and fills the area with synthesized content, often resulting in a clean removal.
 
 
 ### 3. Content-Aware Move Tool
 
 This tool is used for relocating an object within an image, automatically filling the original hole and blending the object into the new background.
+
+<img width="290" height="167" alt="image" src="https://github.com/user-attachments/assets/a619d298-7185-4a8d-8b1a-8421aa00ed47" />
+
+<img width="272" height="216" alt="image" src="https://github.com/user-attachments/assets/f09a72ec-6934-4162-b2b4-331597127c39" />
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/76e32c21-b5cf-4fe7-bf3b-b53249accf01" />
+
 
 | Setting | Function | Recommended Use |
 | :--- | :--- | :--- |
@@ -989,3 +997,6 @@ This tool is used for relocating an object within an image, automatically fillin
 | **Structure** | Controls how closely the moved object maintains its original shape and integrity in the new location. | Use a **higher value** (e.g., 7) to preserve crisp edges. |
 | **Color** | Controls how much the moved object's color and texture are blended with the new surrounding background. | Use a **higher value** (e.g., 7) for seamless blending when moving an object over a textured background. |
 | **Adaptation** | Defines the blending method. **Very Loose** works best for uniform backgrounds; **Very Strict** works best for complex, high-detail backgrounds. |
+
+---
+
