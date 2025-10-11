@@ -1103,3 +1103,65 @@ The Smudge Tool pushes and drags pixels across the canvas, simulating the effect
 * All three tools are **destructive**; they directly change the pixel data on the active layer.
 * They all function like the **Brush Tool (B)**, allowing control over **Size** (using **[** and **]** keys) and **Hardness** in the Options Bar.
 * It is often best practice to use these tools on a **duplicate layer** so that the original image data remains protected.
+
+---
+
+## Layer Masks in Adobe Photoshop 🔳
+
+A **Layer Mask** is a fundamental non-destructive editing technique in Photoshop. It is a grayscale channel attached to a layer that controls the transparency of that layer's content, allowing you to selectively hide or reveal parts of the layer without permanently erasing any pixels.
+
+<img width="357" height="452" alt="image" src="https://github.com/user-attachments/assets/6e10535b-f904-4c11-b793-b54716563b30" />
+
+### 1. Core Concepts and Principles
+
+| Color | Function | Result | Analogy |
+| :--- | :--- | :--- | :--- |
+| **White** | **Reveals** | The layer's content is fully visible. | A hole cut in a piece of paper (or clear plastic). |
+| **Black** | **Hides** | The layer's content is fully transparent. | The paper/plastic is covering the object underneath. |
+| **Grays** | **Partially Reveals** | The layer's content is semi-transparent (e.g., $50\%$ gray means $50\%$ opacity). | Tinted glass or semi-transparent fabric. |
+
+* **Non-Destructive:** Since you are only hiding pixels, not deleting them, you can always go back and paint with white to bring back the hidden areas.
+* **Location:** The mask thumbnail appears next to the layer's content thumbnail in the **Layers Panel**.
+
+
+### 2. Creating and Working with a Layer Mask
+
+#### Creating a Mask
+
+1.  **Select Layer:** Click on the layer you want to mask.
+2.  **Add Mask:** Click the **Add Layer Mask** icon ($\text{🔳}$) at the bottom of the Layers Panel. A white mask thumbnail will appear, revealing the entire layer.
+
+#### Painting on the Mask
+
+* **Active Mask:** Ensure the **mask thumbnail** is selected (it will have a thin white or black border around it).
+* **Foreground Color:** Your painting tool (like the **Brush Tool (B)**) should be set to black, white, or a shade of gray.
+* **Shortcut:** Use **D** to set the Foreground/Background colors to default (Black/White). Use **X** to quickly swap between them.
+
+| Action | Foreground Color | Result |
+| :--- | :--- | :--- |
+| **Hiding Content** | **Black** | Paint over the image to hide the layer content. |
+| **Revealing Content** | **White** | Paint over previously masked areas to bring the content back. |
+| **Soft Edge** | **Soft Brush** (Low Hardness) | Creates a gradual transition between the hidden and visible areas. |
+
+
+### 3. Mask Management Shortcuts
+
+| Shortcut | Action | Effect |
+| :--- | :--- | :--- |
+| **Alt/Option + Click** on Mask | **View Mask Channel** | Temporarily displays the mask itself (black, white, and gray) in the document window, rather than the layer content. |
+| **Shift + Click** on Mask | **Disable/Enable Mask** | Temporarily disables the mask. A red $\text{X}$ will appear over the mask thumbnail, showing the full, unmasked layer content. |
+| **Ctrl/Cmd + I** (with Mask Active) | **Invert Mask** | Flips the colors of the mask (Black becomes White, and White becomes Black), reversing the visible and hidden areas. |
+| **Alt/Option + Drag Mask** | **Duplicate Mask** | Duplicates the mask to another layer. |
+
+
+### 4. Key Applications
+
+Layer Masks are essential for advanced photo editing:
+
+1.  **Selective Adjustments:** Applying an **Adjustment Layer** (e.g., Curves, Hue/Saturation) and then using a mask to restrict the adjustment's effect to only specific parts of the image (e.g., brightening just the face).
+2.  **Compositing/Blending:** Seamlessly blending two or more layers together (e.g., combining two different landscapes or blending a texture over an object).
+3.  **Refining Selections:** Converting a selection (such as one made with the Lasso or Quick Selection Tool) into a mask provides a flexible way to refine the edges using the brush tool, which is much easier than re-selecting.
+    * *To create a mask from a selection:* Make the selection, then click the **Add Layer Mask** icon. Photoshop automatically fills the selected area with **white** (revealing) and the unselected area with **black** (hiding).
+  
+---
+   
