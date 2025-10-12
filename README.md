@@ -682,7 +682,7 @@ The **Brush Tool (B)** is one of the most fundamental and versatile tools in Ado
 <img width="376" height="352" alt="image" src="https://github.com/user-attachments/assets/08887bfd-91d4-4d77-9bcf-ea64b2dfa47e" />
 
 
-### Basic Brush Tool (B) Notes
+### Basic Brush Tool (B)
 
 | Property | Description |
 | :--- | :--- |
