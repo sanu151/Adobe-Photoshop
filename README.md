@@ -1131,6 +1131,8 @@ A **Layer Mask** is a fundamental non-destructive editing technique in Photoshop
 
 ### 2. Creating and Working with a Layer Mask
 
+<img width="1024" height="747" alt="image" src="https://github.com/user-attachments/assets/15882abe-ad26-43d8-a146-dda58f925175" />
+
 #### Creating a Mask
 
 1.  **Select Layer:** Click on the layer you want to mask.
