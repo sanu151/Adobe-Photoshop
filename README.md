@@ -1115,8 +1115,10 @@ A **Layer Mask** is a fundamental non-destructive editing technique in Photoshop
 ### 1. Core Concepts and Principles
 
 <img width="897" height="452" alt="image" src="https://github.com/user-attachments/assets/4175d661-ef8d-4174-b64d-0690372da557" />
+
 > The Black Circle area of the current layer get transparent, and Background layer visible to this area.
 
+### 
 | Color | Function | Result | Analogy |
 | :--- | :--- | :--- | :--- |
 | **White** | **Reveals** | The layer's content is fully visible. | A hole cut in a piece of paper (or clear plastic). |
