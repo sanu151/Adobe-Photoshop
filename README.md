@@ -1172,3 +1172,29 @@ Layer Masks are essential for advanced photo editing:
   
 ---
    
+## Black & White Adjustment Layer (Non-Destructive & Controlled)
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b1fa3fd2-3627-49f6-a730-d131c5936715" />
+
+
+
+* **Steps:**
+    1.  Go to **Layer > New Adjustment Layer > Black & White...** (or click the **Adjustment Layer icon** $\text{⚫}$ at the bottom of the Layers Panel and choose **Black & White**).
+    2.  A new Adjustment Layer will appear in the Layers Panel, and the **Properties Panel** will open with the Black & White settings.
+* **Controls in Properties Panel:**
+    * **Presets:** Choose from various pre-defined black and white conversions (e.g., "High Contrast Red Filter").
+    * **Color Sliders:** This is where the power lies. Drag the individual color sliders (Red, Yellow, Green, Cyan, Blue, Magenta) to adjust how those original colors are rendered in grayscale.
+        * Dragging a color slider to the **left (negative values)** makes objects of that original color appear **darker** in black and white.
+        * Dragging a color slider to the **right (positive values)** makes objects of that original color appear **lighter** in black and white.
+    * **Tint:** Check this box to add a monochromatic color tint (e.g., sepia tone) to your black and white image.
+* **Non-Destructive:** Since it's an Adjustment Layer, you can always go back and refine the settings, or even delete the layer to revert to the original color image.
+
+
+**Image > Adjustments > Black & White.**
+
+This menu command is an alternative way to apply the powerful Black & White conversion settings in Photoshop, distinct from using the Alt + Ctrl + Shift + B shortcut or the Adjustment Layer method.
+
+![color_black_white](https://github.com/user-attachments/assets/ead10a59-8a24-4c30-9ca2-ddbc60d8affd)
+
+---
+
