@@ -1196,7 +1196,45 @@ Layer Masks are essential for advanced photo editing:
 
 This menu command is an alternative way to apply the powerful Black & White conversion settings in Photoshop, distinct from using the Alt + Ctrl + Shift + B shortcut or the Adjustment Layer method.
 
+---
 
+## History Panel in Adobe Photoshop 📜
+
+The **History Panel** is a crucial feature that records every state (change or action) made to your image since the file was opened. It functions as a powerful, multi-level undo system, allowing you to backtrack to any previous state without relying on sequential undo steps.
+
+<img width="301" height="242" alt="image" src="https://github.com/user-attachments/assets/d82f7197-9873-47ac-96da-8fdae0386327" />
+
+
+#### Key Features and Usage
+
+1.  **Non-Destructive Navigation:** You can click on any state in the panel to revert your document to that point in time. This is non-destructive because it doesn't delete the states after the point you jump back to; it merely makes them inaccessible unless you perform a new action.
+2.  **Number of States:** By default, Photoshop saves **20 History States**. This number can be increased (e.g., up to 1,000) by going to **Edit > Preferences > Performance > History & Cache**. Be aware that increasing history states consumes more RAM.
+3.  **State Loss:** The history list is **cleared** when you:
+    * Close the document.
+    * Use certain destructive commands (like saving a file that converts to a non-layered format).
+4.  **Creating a New Document from a State:** You can drag any state onto the **New Document** icon ($\text{➕}$) at the bottom of the panel to create a new file based on that specific historical version of your image.
+5.  **Snapshot:** The camera icon ($\text{📷}$) at the bottom of the panel is used to take a **Snapshot**. A snapshot is a permanent historical state that is saved and is **not lost** even if you exceed the number of history states. This is ideal for saving a major milestone during an editing session.
+
+
+### History Brush Tool (Y)
+
+The **History Brush Tool (Y)** works in conjunction with the History Panel. It allows you to selectively paint back to a specific saved state or snapshot onto your current image.
+
+<img width="423" height="350" alt="image" src="https://github.com/user-attachments/assets/c243f6b7-821f-4e43-ac80-c18d99a496d9" />
+
+<img width="732" height="340" alt="image" src="https://github.com/user-attachments/assets/94bd1aa1-d35d-45c4-a2a0-2db8eaf49f79" />
+
+
+#### Usage and Mechanism
+
+1.  **Define Source State:** In the History Panel, click in the square column next to a specific state or snapshot. A **History Brush icon** ($\text{🖌️}$) will appear, marking that state as the source content.
+2.  **Activate Tool:** Select the **History Brush Tool (Y)**.
+3.  **Paint:** Paint over your image. As you paint, the tool replaces the current pixels with the pixels from the **source state** you selected in the History Panel.
+
+#### Key Applications
+
+* **Localized Reversion:** If you make a mistake (e.g., blurring the whole image), you can revert the entire document, mark the blurred state as the source, and then paint the blur *back in* only on specific areas.
+* **Creative Effects:** It is often used for creative effects, such as converting a color photo to black and white, and then using the History Brush to selectively paint back the original color onto a single subject or object.
 
 ---
 
