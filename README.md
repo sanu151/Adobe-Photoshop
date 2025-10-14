@@ -1190,11 +1190,13 @@ Layer Masks are essential for advanced photo editing:
 * **Non-Destructive:** Since it's an Adjustment Layer, you can always go back and refine the settings, or even delete the layer to revert to the original color image.
 
 
+![color_black_white](https://github.com/user-attachments/assets/ead10a59-8a24-4c30-9ca2-ddbc60d8affd)
+
 **Image > Adjustments > Black & White.**
 
 This menu command is an alternative way to apply the powerful Black & White conversion settings in Photoshop, distinct from using the Alt + Ctrl + Shift + B shortcut or the Adjustment Layer method.
 
-![color_black_white](https://github.com/user-attachments/assets/ead10a59-8a24-4c30-9ca2-ddbc60d8affd)
+
 
 ---
 
