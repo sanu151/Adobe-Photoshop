@@ -1289,7 +1289,7 @@ The Paths Panel is where all paths (Work Paths, Saved Paths, and Vector Masks) a
 
 A path is not directly editable like pixels, but it is indispensable for making perfect selections:
 
-* **Make Selection:** Click the **Dashed Circle** icon ($\text{◯\kern-1.5ex\raisebox{.1ex}{\tiny\textbullet}}$) at the bottom of the Paths Panel, or **Ctrl/Cmd + Click** the path thumbnail. This turns the vector outline into a pixel selection.
+* **Make Selection:** Click the **Dashed Circle** icon (◯) at the bottom of the Paths Panel, or **Ctrl/Cmd + Click** the path thumbnail. This turns the vector outline into a pixel selection.
 
 
 ### 3. Pen Tool (P) in Detail
