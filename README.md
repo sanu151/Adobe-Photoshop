@@ -1284,9 +1284,6 @@ The Paths Panel is where all paths (Work Paths, Saved Paths, and Vector Masks) a
 
 * **Vector Mask:** A resolution-independent mask created from a path, used to hide or reveal contents of a layer.
 
-<img width="214" height="171" alt="image" src="https://github.com/user-attachments/assets/3982da4b-e019-4d9e-9010-07b404b844b2" />
-
-
 
 #### Converting Paths to Selections
 
