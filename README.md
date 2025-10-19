@@ -1313,3 +1313,11 @@ A path is not directly editable like pixels, but it is indispensable for making 
 | **Alt / Option** (while drawing) | Temporarily switches to the **Convert Point Tool** to break tangent lines (creates a corner point on a curve). |
 | **Ctrl / Cmd** (while drawing) | Temporarily switches to the **Direct Selection Tool** to move an anchor point. |
 | **Shift** | Constrains handles or lines to 45° increments. |
+
+> **Pen Tool** is used for **Vector** drawing/image
+> In Top menu bar - we will choose **Shape** when we create an **Object** and choose **Path** when we create a **Path**
+> To close **Curve handle** -> **Alt + Click on anchore point**
+> **Space Bar** to move **Anchore Point** when we create a **Path/Shape**
+
+---
+
