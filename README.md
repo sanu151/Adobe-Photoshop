@@ -1238,3 +1238,81 @@ The **History Brush Tool (Y)** works in conjunction with the History Panel. It a
 
 ---
 
+## The Pen Tool and Path
+
+The **Pen Tool Group (P)** in Adobe Photoshop is a critical set of tools used to create precise **paths** and vector shapes. Unlike pixel-based tools (like the Brush or Lasso), paths are defined by mathematical vectors, which makes them resolution-independent and perfect for creating clean, scalable lines and complex selections.
+
+### 1. The Pen Tool Group (P)
+
+<img width="275" height="156" alt="image" src="https://github.com/user-attachments/assets/c7a23e90-2003-4368-913b-47d62dd96a94" />
+
+
+| Tool Name | Shortcut | Primary Function | Key Purpose |
+| :--- | :--- | :--- | :--- |
+| **Pen Tool** | **P** | Creates smooth, precise curves and straight line segments using anchor points and direction handles. | Drawing vector paths and complex shapes. |
+| **Freeform Pen Tool** | $\text{Shift + P}$ (cycle) | Creates paths as if drawing freehand with a pencil. | Quick, natural path creation (less precise). |
+| **Curvature Pen Tool** | $\text{Shift + P}$ (cycle) | Creates smooth curves by simply placing points; curves are adjusted automatically. | Intuitive curve drawing without explicit handles. |
+| **Add Anchor Point Tool** | (Nested) | Adds an anchor point to an existing path segment. | Increasing path detail and control. |
+| **Delete Anchor Point Tool** | (Nested) | Removes an anchor point from a path segment. | Simplifying path geometry. |
+| **Convert Point Tool** | (Nested) | Converts a smooth curve point (with handles) to a corner point (no handles), or vice versa. | Adjusting the transition between segments. |
+
+
+### 2. Paths: The Core Concept
+
+A **Path** is a non-printing, vector outline composed of **anchor points** connected by **segments**.
+
+<img width="1759" height="1559" alt="Path Segment" src="https://github.com/user-attachments/assets/2d9d183b-c5eb-4871-9165-6b0327469d28" />
+
+
+* **Anchor Points:** The points you click to define the path.
+    * **Corner Point:** Connects two straight or curved segments at an angle (no direction handles are extended).
+    * **Smooth Point (Curve Point):** Connects two curved segments smoothly. It has **direction handles** that control the depth and angle of the curve coming out of the point.
+* **Direction Handles:** Lines that extend from a smooth anchor point. You drag these to manipulate the shape of the curve segment.
+
+#### The Paths Panel (Window > Paths)
+
+The Paths Panel is where all paths (Work Paths, Saved Paths, and Vector Masks) are managed.
+
+* **Work Path:** A temporary path created by the Pen Tool. It must be **saved** (double-click it and name it) or it will be lost when you create a new path or deselect.
+
+<img width="388" height="313" alt="image" src="https://github.com/user-attachments/assets/ec180e3c-e5b5-446f-b0af-c665db8c8fe7" />
+ 
+* **Saved Path:** A named, permanent path layer.
+
+<img width="426" height="171" alt="image" src="https://github.com/user-attachments/assets/9838e758-7e6c-493f-8e8f-a7ba275056ee" />
+<img width="377" height="296" alt="image" src="https://github.com/user-attachments/assets/427f5fd0-93c4-47b3-832d-02b078318b9f" />
+
+* **Vector Mask:** A resolution-independent mask created from a path, used to hide or reveal contents of a layer.
+
+<img width="214" height="171" alt="image" src="https://github.com/user-attachments/assets/3982da4b-e019-4d9e-9010-07b404b844b2" />
+
+
+
+#### Converting Paths to Selections
+
+A path is not directly editable like pixels, but it is indispensable for making perfect selections:
+
+* **Make Selection:** Click the **Dashed Circle** icon ($\text{◯\kern-1.5ex\raisebox{.1ex}{\tiny\textbullet}}$) at the bottom of the Paths Panel, or **Ctrl/Cmd + Click** the path thumbnail. This turns the vector outline into a pixel selection.
+
+
+### 3. Pen Tool (P) in Detail
+
+#### Drawing Straight Segments
+1.  Click once to create the first anchor point.
+2.  Click a second time to create the second point. A straight line connects them.
+3.  Hold **Shift** while clicking to constrain the line to 45°, 90°, or 180° angles.
+
+#### Drawing Curved Segments
+1.  Click and **drag** to create the first smooth anchor point and pull out its direction handles.
+2.  Click and **drag** to create the second anchor point. The curve between the two points is controlled by the direction handles of both points.
+
+#### Editing Paths (Using Select/Direct Select Tools)
+* **Path Selection Tool** (Black Arrow $\text{A}$): Selects and moves the entire path.
+* **Direct Selection Tool** (White Arrow $\text{A}$): Selects and moves individual **anchor points** or **direction handles** to fine-tune the shape of the path.
+
+#### Key Modifiers
+| Key | Action |
+| :--- | :--- |
+| **Alt / Option** (while drawing) | Temporarily switches to the **Convert Point Tool** to break tangent lines (creates a corner point on a curve). |
+| **Ctrl / Cmd** (while drawing) | Temporarily switches to the **Direct Selection Tool** to move an anchor point. |
+| **Shift** | Constrains handles or lines to 45° increments. |
