@@ -1436,7 +1436,7 @@ Like all vector shapes in Photoshop, a Custom Shape is created on a **Shape Laye
 
 They allow you to bring scalable, resolution-independent artwork into Photoshop while preserving its vector properties.
 
-
+<img width="963" height="346" alt="image" src="https://github.com/user-attachments/assets/a5431aac-0332-46c3-bf1d-a9944c75dbc2" />
 
 #### Key Characteristics and Benefits
 
@@ -1469,6 +1469,37 @@ A Smart Object is identified by a small **Smart Object icon** ($\text{🔗}$) on
 | **Editing** | Edited directly in Photoshop using the Direct Selection Tool (A) and Shape properties. | Edited by double-clicking the thumbnail, which opens the content in a separate window (often Illustrator). |
 | **File Type** | Stored purely within the Photoshop document. | Can link to an external file (e.g., a `.ai` file) or contain embedded external data. |
 | **Properties** | Fill/Stroke/Path Operations are adjusted via the Properties Panel. | Adjustments are made via the external application/file. |
+
+
+## Raster Smart Object
+
+A **Raster Smart Object** in Adobe Photoshop is a non-destructive container layer that holds pixel-based image data (like photos or scanned documents) within its structure.
+
+It is the standard way to incorporate raster images into a project while maintaining the flexibility for scaling and editing.
+
+**Ctrl + Shift + Backspace**: Fill Background color in Non Transparent pixels.
+
+#### Key Characteristics and Benefits
+
+| Characteristic | Description | Benefit |
+| :--- | :--- | :--- |
+| **Non-Destructive Scaling** | The original, full-resolution pixel data is preserved inside the container. | You can scale the image down and back up repeatedly without losing quality or pixel data. If you scale it down and save the file, the original high-resolution data is still retained in the Smart Object. |
+| **Non-Destructive Transformations** | Transformations (rotate, skew, perspective warp) are saved as instructions. | You can reset the transformation or change the angle/size later without resampling the pixels (unlike regular raster layers). |
+| **Smart Filters** | Any filter applied to a Raster Smart Object is automatically a **Smart Filter**. | Filters become editable, masked, and adjustable at any time, eliminating the destructive nature of standard Photoshop filters. |
+| **Linked/Embedded** | The Smart Object can either embed the image data within the Photoshop file or link to an external source file (e.g., a `.TIF` or `.PSD` file). | Linked Smart Objects keep the Photoshop file size smaller and update automatically if the external source file is modified. |
+
+
+#### How Raster Smart Objects Are Created
+
+Raster Smart Objects are most commonly created in the following ways:
+
+1.  **Importing Files:** Using **File > Place Embedded** or **File > Place Linked** to bring image files (e.g., JPEG, PNG, TIFF) into the Photoshop document.
+2.  **Conversion:** Right-clicking any existing standard **Raster Layer** (or multiple layers) in the Layers Panel and choosing **Convert to Smart Object**. This packages the existing pixel data into the new container.
+3.  **Copy/Paste:** Copying pixels from another Photoshop document and choosing **Paste as Smart Object**.
+
+#### Visual Clue
+
+A Smart Object is easily identified by the small **Smart Object icon** ($\text{🔗}$) located on the bottom-right corner of the layer thumbnail in the Layers Panel.
 
 ---
 
