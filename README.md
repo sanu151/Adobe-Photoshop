@@ -1382,5 +1382,51 @@ Vector Shapes are primarily edited using the path selection tools:
 * **Flexibility:** The **Fill** and **Stroke** properties can be changed instantly and non-destructively through the Properties Panel at any time.
 * **Easy Editing:** Because the shapes are defined by anchor points, you can use the Direct Selection Tool to perform precise corner or curve edits that would be impossible with pixel-based tools.
 
+
+> ### Create Custom Shape in Illustrator:
+* Create a shape in Illustrator, make it by Pen Tool. Increase stroke size, **Goto Object -> Path -> Outline Path**. Copy the shape from Illustrator and paste it in Photoshop as a shape layer. Select it using path selection tool, the Right click for path Selection Menu -> Define Custom Shape. It will append in custom shape library.
+
+> ### Illustrator to Photoshop
+* Copy shape from Illustrator and paste it in Photoshop, then select peste as "Smart Object / Pixels / Path or Shape Layer". It will paste as a Vector Shape.
+* Need to expand the shape in Illustrator before copying the shape.
+* If paste as a Pixel, it will paste as a **Ruster shape**
+
+
+### Custom Shape Tool
+
+The **Custom Shape Tool** is a specific tool within the **Shape Tool Group (U)** in Adobe Photoshop that allows users to select and draw pre-defined vector graphics from Photoshop's library.
+
+It is highly efficient for inserting complex vector elements like arrows, symbols, animals, and common web icons without having to draw them manually with the Pen Tool.
+
+
+#### 1. Accessing and Using the Tool
+
+1.  **Selection:** Activate the **Shape Tool Group (U)** and cycle through the options until you select the **Custom Shape Tool** (the icon usually looks like a random, stylized blob or symbol).
+2.  **Options Bar:** In the Options Bar at the top of the screen, ensure the mode is set to **Shape**.
+3.  **Shape Picker:** Click the **Shape thumbnail/dropdown** in the Options Bar. This opens the library of pre-loaded and custom shapes.
+4.  **Draw:** Select your desired shape and click and drag on the canvas to draw it.
+    * **Hold Shift:** Constrains the shape's proportions (maintains its original aspect ratio).
+    * **Hold Alt/Option:** Draws the shape from its center point.
+
+#### 2. Managing the Shape Library
+
+#### Loading Shapes
+* The shape library starts with a basic set. You can load more categories (like Arrows, Web, Nature) by clicking the **Gear icon** ($\text{⚙️}$) in the Shape Picker dropdown.
+* You can also load custom shapes (.CSH files) downloaded from third parties.
+
+#### Creating Your Own Custom Shapes
+You can turn any vector path or shape you create into a permanent Custom Shape preset:
+
+1.  Create your desired shape or path using the Pen Tool or other Shape Tools.
+2.  With the path active, go to **Edit > Define Custom Shape...**
+3.  Give the shape a name. It will now appear in your Custom Shape library.
+
+#### 3. Properties and Editing
+
+Like all vector shapes in Photoshop, a Custom Shape is created on a **Shape Layer** and remains fully editable:
+
+* **Vector Nature:** Can be scaled, rotated, or transformed without losing sharpness.
+* **Editing the Path:** Use the **Direct Selection Tool (A)** to grab and adjust the individual anchor points of the custom shape.
+* **Properties Panel:** The **Properties Panel** allows you to non-destructively change the **Fill Color**, **Stroke Color/Weight/Style**, and adjust the corner **Radius** (if applicable) at any time.
 ---
 
