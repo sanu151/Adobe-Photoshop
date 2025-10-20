@@ -1381,3 +1381,6 @@ Vector Shapes are primarily edited using the path selection tools:
 * **Scalability:** You can resize them infinitely without any loss of quality or pixelation.
 * **Flexibility:** The **Fill** and **Stroke** properties can be changed instantly and non-destructively through the Properties Panel at any time.
 * **Easy Editing:** Because the shapes are defined by anchor points, you can use the Direct Selection Tool to perform precise corner or curve edits that would be impossible with pixel-based tools.
+
+---
+
