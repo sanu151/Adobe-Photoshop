@@ -1321,3 +1321,63 @@ A path is not directly editable like pixels, but it is indispensable for making 
 
 ---
 
+## Vector Shapes
+
+**Vector Shapes** in Adobe Photoshop are mathematically defined objects that maintain their crispness and quality regardless of how much they are scaled, resized, or transformed. They are resolution-independent, making them ideal for logos, graphics, interface elements, and text.
+
+<img width="367" height="323" alt="image" src="https://github.com/user-attachments/assets/9e15f431-039a-4302-923e-ecf815f931f0" />
+
+
+### 1. Shape Tools (U)
+
+Vector Shapes are created using the **Shape Tool Group (U)**, which contains several basic geometric shape creation tools:
+
+<img width="246" height="157" alt="image" src="https://github.com/user-attachments/assets/204db0f1-1f0c-4dac-a53c-4aaac6340de8" />
+
+
+| Tool Name | Shortcut | Shape Created |
+| :--- | :--- | :--- |
+| **Rectangle Tool** | **U** | Basic four-sided shape. Hold **Shift** for a perfect square. |
+| **Rounded Rectangle Tool** | $\text{Shift + U}$ (cycle) | Creates a rectangle with adjustable corner radii. |
+| **Ellipse Tool** | $\text{Shift + U}$ (cycle) | Creates ovals. Hold **Shift** for a perfect circle. |
+| **Polygon Tool** | $\text{Shift + U}$ (cycle) | Creates multi-sided shapes (triangles, hexagons, etc.). The number of sides is adjustable in the Options Bar. |
+| **Line Tool** | $\text{Shift + U}$ (cycle) | Creates a straight vector line. |
+| **Custom Shape Tool** | $\text{Shift + U}$ (cycle) | Allows selection from Photoshop's library of pre-made vector shapes (e.g., arrows, speech bubbles, hearts). |
+
+
+### 2. Key Characteristics & Workflow
+
+#### Shape Layer
+When you draw a Vector Shape, Photoshop automatically creates a **Shape Layer** in the Layers Panel.
+
+<img width="2296" height="1247" alt="Shape_Layer" src="https://github.com/user-attachments/assets/1ae386a2-fb50-410d-9ece-b83696be1c0e" />
+
+* **Layer Thumbnail:** This layer contains a color fill or gradient.
+* **Vector Mask Thumbnail:** A linked thumbnail shows the shape's path (vector mask), which defines the shape's outline. This is what keeps the edges sharp.
+
+#### Options Bar Settings
+Before drawing, the Options Bar at the top of the screen provides crucial controls:
+
+<img width="1135" height="57" alt="image" src="https://github.com/user-attachments/assets/9c245c8c-224a-449c-896d-8363ba0719cf" />
+
+* **Mode:** Must be set to **Shape** (the icon with a solid fill) to create a Vector Shape layer. (Other options are Path or Pixels).
+* **Fill:** Sets the color, gradient, or pattern inside the shape.
+* **Stroke:** Sets the color, width, and style (solid, dashed, dotted) of the shape's outline.
+* **Path Operations:** Controls how multiple shapes interact on the same layer (e.g., combine shapes, subtract the front shape, intersect, etc.).
+
+#### Editing and Manipulation
+
+Vector Shapes are primarily edited using the path selection tools:
+
+| Tool | Shortcut | Function |
+| :--- | :--- | :--- |
+| **Path Selection Tool** (Black Arrow) | **A** | Selects and moves the entire shape path. |
+| **Direct Selection Tool** (White Arrow) | **A** | Selects and moves individual **anchor points** and **direction handles** to precisely reshape the geometry. |
+| **Pen Tool (P)** | **P** | Used to add, delete, or convert anchor points on the path, allowing complex modifications. |
+
+
+### 3. Advantages of Vector Shapes
+
+* **Scalability:** You can resize them infinitely without any loss of quality or pixelation.
+* **Flexibility:** The **Fill** and **Stroke** properties can be changed instantly and non-destructively through the Properties Panel at any time.
+* **Easy Editing:** Because the shapes are defined by anchor points, you can use the Direct Selection Tool to perform precise corner or curve edits that would be impossible with pixel-based tools.
