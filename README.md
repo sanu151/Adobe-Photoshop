@@ -1428,5 +1428,47 @@ Like all vector shapes in Photoshop, a Custom Shape is created on a **Shape Laye
 * **Vector Nature:** Can be scaled, rotated, or transformed without losing sharpness.
 * **Editing the Path:** Use the **Direct Selection Tool (A)** to grab and adjust the individual anchor points of the custom shape.
 * **Properties Panel:** The **Properties Panel** allows you to non-destructively change the **Fill Color**, **Stroke Color/Weight/Style**, and adjust the corner **Radius** (if applicable) at any time.
+
+
+### Vector Smart Objects
+
+**Vector Smart Objects** in Adobe Photoshop are non-destructive container layers that hold vector content (like shapes, logos, or text) created in vector programs such as Adobe Illustrator.
+
+They allow you to bring scalable, resolution-independent artwork into Photoshop while preserving its vector properties.
+
+
+
+#### Key Characteristics and Benefits
+
+| Characteristic | Description | Benefit |
+| :--- | :--- | :--- |
+| **Non-Destructive Scaling** | The vector data is embedded within the Smart Object. | You can scale the layer up or down an infinite number of times without any loss of quality or pixelation. |
+| **Linked Source Files** | If the Smart Object contains an Illustrator file or a vector shape, the link to the original data is maintained. | Double-clicking the Smart Object thumbnail opens the vector content in Illustrator (or a temporary PSB file in Photoshop) for editing. After saving the external file, the object updates automatically in Photoshop. |
+| **Filter Flexibility** | Filters applied to a Smart Object become **Smart Filters**. | You can edit, hide, or delete the filter at any time, which is non-destructive. You can also paint on the filter's mask. |
+| **Transformation** | Transformations (scale, rotate, skew) are non-destructive. | The original pixels or vector data remain intact, allowing you to reset or change transformations later. |
+
+
+#### How Vector Smart Objects Are Created
+
+Vector Smart Objects are typically created in two ways:
+
+1.  **Importing from Illustrator:**
+    * **Drag and Drop/Place:** Drag an Illustrator file (.AI) or copy and paste vector paths directly from Illustrator into a Photoshop document. Choose **Smart Object** when prompted during the Paste dialog.
+    * **File > Place Embedded/Linked:** Use this command to embed or link an Illustrator file as a Smart Object.
+2.  **Converting Existing Layers:**
+    * **Right-Click > Convert to Smart Object:** You can right-click any existing **Shape Layer** (which is already vector) or even a text layer in Photoshop and choose **Convert to Smart Object**. This locks in the vector data into a Smart Object container.
+
+#### Visual Clue
+
+A Smart Object is identified by a small **Smart Object icon** ($\text{🔗}$) on the bottom-right corner of the layer thumbnail in the Layers Panel.
+
+#### Vector Shapes vs. Vector Smart Objects
+
+| Feature | Vector Shape Layer (U) | Vector Smart Object (from Illustrator/Shapes) |
+| :--- | :--- | :--- |
+| **Editing** | Edited directly in Photoshop using the Direct Selection Tool (A) and Shape properties. | Edited by double-clicking the thumbnail, which opens the content in a separate window (often Illustrator). |
+| **File Type** | Stored purely within the Photoshop document. | Can link to an external file (e.g., a `.ai` file) or contain embedded external data. |
+| **Properties** | Fill/Stroke/Path Operations are adjusted via the Properties Panel. | Adjustments are made via the external application/file. |
+
 ---
 
