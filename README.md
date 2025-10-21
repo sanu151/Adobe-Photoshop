@@ -1503,7 +1503,7 @@ A Smart Object is easily identified by the small **Smart Object icon** ($\text{ð
 
 ---
 
-## Clipping Mask
+## Clipping Mask (Ctrl + Alt + G)
 
 A **Clipping Mask** in Adobe Photoshop is a non-destructive method that allows the content of one layer (the **Clipping Layer**) to be visible only through the shape or transparency of another layer (the **Base Layer**).
 
