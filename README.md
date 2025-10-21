@@ -1538,3 +1538,67 @@ Clipping Masks are essential for advanced and non-destructive editing:
 | **Filling Complex Shapes** | Using a photo or complex fill content to fill the area of a vector shape or logo. | Clipping a landscape photo to a vector shape layer of a circle. The photo appears inside the circle, and the circle's shape can be easily resized or moved. |
 
 ---
+
+## **Dodge Tool**, **Burn Tool**, and **Sponge Tool**
+
+The **Dodge Tool**, **Burn Tool**, and **Sponge Tool** are a group of specialized painting tools in Adobe Photoshop used for localized adjustments to the exposure and color saturation of an image. They are sometimes referred to as the "toning tools" group.
+
+They all share the same shortcut: **O**.
+
+<img width="210" height="87" alt="image" src="https://github.com/user-attachments/assets/50b0f97e-e441-4156-844a-01e418b931e2" />
+
+
+### 1. Dodge Tool (O)
+
+The Dodge Tool is based on a traditional photography darkroom technique where light was intentionally held back ("dodged") from certain areas of photo paper to make them lighter.
+
+<img width="372" height="342" alt="image" src="https://github.com/user-attachments/assets/e9832bd4-84a8-4d3b-b23d-07baa44ea941" />
+
+
+* **Primary Function:** **Lightens** areas of the image.
+* **Mechanism:** It reduces the density of pixels in the brushed area, effectively increasing their brightness.
+* **Options Bar Controls:**
+    * **Range:** Specifies which tonal range the tool affects:
+        * **Midtones:** (Default and most common) Affects the middle range of grays.
+        * **Shadows:** Affects only the darkest areas.
+        * **Highlights:** Affects only the brightest areas.
+    * **Exposure:** Controls the intensity of the lightening effect (how quickly it brightens the area with each stroke).
+
+
+### 2. Burn Tool (Shift + O)
+
+The Burn Tool is also based on a darkroom technique where specific areas of the photo paper were given extra exposure ("burned") to make them darker.
+
+<img width="388" height="333" alt="image" src="https://github.com/user-attachments/assets/633635bb-276f-4f59-8177-27fc5a49dcdf" />
+
+
+* **Primary Function:** **Darkens** areas of the image.
+* **Mechanism:** It increases the density of pixels in the brushed area, effectively decreasing their brightness.
+* **Options Bar Controls:** The controls are identical to the Dodge Tool:
+    * **Range:** Affects **Shadows**, **Midtones**, or **Highlights**.
+    * **Exposure:** Controls the intensity of the darkening effect.
+
+
+### 3. Sponge Tool (Shift + O)
+
+The Sponge Tool adjusts the color saturation of an area, acting like a physical sponge to either soak up or add color.
+
+<img width="786" height="92" alt="image" src="https://github.com/user-attachments/assets/f74457a7-2474-4024-8a31-2e2f61283f45" />
+
+* **Primary Function:** Modifies color saturation.
+* **Mechanism:** Changes the intensity or purity of colors in the brushed area.
+* **Options Bar Controls:**
+    * **Mode:** Determines the action:
+        * **Saturate:** Increases the intensity (vibrancy) of colors.
+        * **Desaturate:** Decreases the intensity (making colors duller or approaching grayscale).
+    * **Flow:** Controls the intensity of the saturation change.
+
+
+#### General Tool Notes (Shared)
+
+* All three tools are **destructive**; they directly change the pixel data on the active layer.
+* They all function like the **Brush Tool (B)**, allowing control over **Size** and **Hardness**.
+* It is best practice to use these tools on a **duplicate layer** or a **blank layer** set to the **Overlay** blending mode to perform the adjustments non-destructively.
+
+---
+
