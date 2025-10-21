@@ -1602,3 +1602,57 @@ The Sponge Tool adjusts the color saturation of an area, acting like a physical 
 
 ---
 
+
+## The Gradient Tool (G)
+
+**Gradients** in Adobe Photoshop are gradual blends between two or more colors. They are used to create smooth color transitions, often simulating lighting effects or creating colorful backgrounds and overlays.
+
+The **Gradient Tool (G)** applies a gradient fill by clicking and dragging across a layer. The start point of the drag defines the location of the first color, and the end point defines the location of the last color.
+
+<img width="371" height="357" alt="image" src="https://github.com/user-attachments/assets/a3bc20f4-86f7-41be-a97f-5c901e7f1181" />
+
+
+### 1. Options Bar Settings
+
+The Options Bar provides the key controls for customizing the gradient:
+
+<img width="925" height="250" alt="image" src="https://github.com/user-attachments/assets/be52ef48-b4e1-4c49-b674-54b09d4f4cbb" />
+
+
+* **Gradient Picker:** The thumbnail displays the current gradient. Clicking it opens the **Gradient Editor** (see below).
+* **Gradient Styles:** Determines the shape of the blend:
+    * **Linear Gradient:** Blends colors in a straight line.
+    * **Radial Gradient:** Blends colors in a circular pattern from the center outward.
+    * **Angle Gradient:** Blends colors in a sweep around the starting point.
+    * **Reflected Gradient:** Blends colors symmetrically on either side of the starting line.
+    * **Diamond Gradient:** Blends colors in a diamond pattern from the center outward.
+* **Mode & Opacity:** Sets the **Blending Mode** and **Opacity** for the gradient, controlling how it interacts with the layers beneath it.
+* **Reverse:** Flips the order of the colors in the gradient.
+* **Dither:** Reduces color banding (striping) by adding a small amount of digital noise to smooth the color transitions.
+* **Transparency:** Determines if the gradient includes transparent areas (based on the settings in the Gradient Editor).
+
+
+### 2. The Gradient Editor
+
+The Gradient Editor, accessed by clicking the gradient thumbnail in the Options Bar, is where you create and modify custom color blends.
+
+<img width="583" height="668" alt="image" src="https://github.com/user-attachments/assets/1b1f0995-315d-4e06-99f0-2610f0f3488a" />
+
+
+* **Presets:** Allows selection of pre-made gradients (e.g., spectral colors, metal effects).
+* **Gradient Bar:** The long color bar at the bottom is the main editing area.
+    * **Color Stops (Lower Diamonds):** Click a lower diamond to select or change the color at that point. You can add new color stops by clicking anywhere beneath the bar.
+    * **Opacity Stops (Upper Diamonds):** Click an upper diamond to control the opacity (transparency) of the gradient at that point.
+    * **Midpoints (Small Diamonds between stops):** These control how quickly the color transition occurs between two adjacent color stops. Moving a midpoint closer to one color will make the transition happen faster near that color.
+
+
+### 3. Applying Gradients Non-Destructively
+
+While you can paint a gradient directly onto a pixel layer (destructively), the best practice is to use non-destructive methods:
+
+* **Gradient Fill Layer:** Go to **Layer > New Fill Layer > Gradient...**. This creates a vector-based fill that can be easily repositioned, scaled, and re-edited at any time without affecting the layers beneath it.
+* **Layer Style:** Double-click a layer (or go to **Layer > Layer Style > Gradient Overlay**) to apply a gradient as an effect. This is often used for giving text or shapes a gradient color without changing the underlying layer's fill.
+
+
+---
+
