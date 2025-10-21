@@ -1503,3 +1503,38 @@ A Smart Object is easily identified by the small **Smart Object icon** ($\text{ð
 
 ---
 
+## Clipping Mask
+
+A **Clipping Mask** in Adobe Photoshop is a non-destructive method that allows the content of one layer (the **Clipping Layer**) to be visible only through the shape or transparency of another layer (the **Base Layer**).
+
+Think of the base layer as a **window** or a **stencil** that determines the boundaries for the content of the layers above it.
+
+<img width="842" height="455" alt="image" src="https://github.com/user-attachments/assets/e423016a-c02b-4880-bcdd-53588d31a435" />
+
+#### 1. Core Principles and Mechanics
+
+* **Base Layer (Bottom):** This layer acts as the mask. The only pixels that will be visible from the layers above it are those that overlap with the opaque (non-transparent) content of this base layer.
+* **Clipping Layer(s) (Top):** These layers contain the content (e.g., textures, adjustments, photos) that you want to restrict to the boundaries of the base layer. You can clip multiple layers to a single base layer.
+* **Non-Destructive:** The pixels of the clipped layers are never modified; they are just visually hidden outside the base layer's shape.
+
+#### 2. Creating a Clipping Mask
+
+A Clipping Mask can be created in three simple ways:
+
+1.  **Shortcut:** Position the Clipping Layer directly above the Base Layer, hold the **Alt** (Windows) or **Option** (Mac) key, and **click on the line** that separates the two layers in the Layers Panel.
+2.  **Right-Click:** Right-click on the Clipping Layer and select **Create Clipping Mask**.
+3.  **Menu:** Select the Clipping Layer and go to **Layer > Create Clipping Mask**.
+
+When a layer is successfully clipped, its thumbnail in the Layers Panel will be slightly **indented** and display a small **downward-pointing arrow** ($\curvearrowleft$) next to the layer thumbnail, indicating it is controlled by the layer below it.
+
+#### 3. Key Applications
+
+Clipping Masks are essential for advanced and non-destructive editing:
+
+| Application | Description | Example |
+| :--- | :--- | :--- |
+| **Applying Textures/Patterns** | Applying a pattern layer or texture to the specific shape of a subject or text. | Clipping a leather texture layer to a layer containing only the shape of a capital letter 'A'. The texture only shows inside the letter A. |
+| **Selective Adjustments** | Restricting an Adjustment Layer (like Levels or Hue/Saturation) to affect only one specific image layer below it. | Clipping a Brightness/Contrast Adjustment Layer to a single portrait layer. The adjustment only affects the portrait layer and not the background layers. |
+| **Filling Complex Shapes** | Using a photo or complex fill content to fill the area of a vector shape or logo. | Clipping a landscape photo to a vector shape layer of a circle. The photo appears inside the circle, and the circle's shape can be easily resized or moved. |
+
+---
