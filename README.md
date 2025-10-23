@@ -1656,3 +1656,46 @@ While you can paint a gradient directly onto a pixel layer (destructively), the 
 
 ---
 
+## Patterns
+
+**Patterns** in Adobe Photoshop are pre-defined, tiled image fills that can be used to seamlessly cover an area. They are one of the content options available for filling selections, strokes, and layer styles.
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b3cfe0fd-b675-458d-8a0f-7c3e05b34bef" />
+
+
+### 1. Defining a Pattern
+
+Any selection of pixels can be converted into a reusable pattern.
+
+1.  **Select Area:** Use any selection tool (like the Marquee Tool) to select the area of the image you want to use as your pattern tile. For seamless tiling, the edges of the selection should match up perfectly.
+2.  **Define Pattern:** Go to **Edit > Define Pattern...**
+3.  **Name:** Give the pattern a name. It is then saved into your pattern library.
+
+### 2. Applying Patterns
+
+Patterns can be applied to an image in several flexible ways:
+
+#### A. Pattern Stamp Tool
+* The **Pattern Stamp Tool** (grouped with the Clone Stamp Tool, $\text{S}$) allows you to paint the selected pattern directly onto a layer.
+* You choose the desired pattern from the **Options Bar** at the top.
+* The **Impressionist** option simulates painting with a patterned brush, which adds a decorative, abstract effect.
+
+#### B. Fill Command
+* This is the quickest way to cover an area or an entire layer with a pattern.
+* Make a selection (or select the entire layer).
+* Go to **Edit > Fill...** (or $\text{Shift + F5}$).
+* In the **Contents** dropdown, select **Pattern**.
+* Choose the desired pattern from the **Custom Pattern** dropdown.
+
+#### C. Pattern Fill Layer (Non-Destructive)
+* The best method for non-destructive application.
+* Go to **Layer > New Fill Layer > Pattern...** (or use the fill icon at the bottom of the Layers Panel).
+* This creates a dedicated, vector-based layer that uses the pattern. You can easily:
+    * Change the pattern later.
+    * Adjust the **Scale** (size) and **Angle** of the pattern.
+    * **Snap to Origin** to align the pattern fill with the document's corner.
+
+#### D. Layer Styles (Pattern Overlay)
+* You can apply a pattern as an effect to a single layer's content (like text or a shape).
+* Double-click the layer (or go to **Layer > Layer Style > Pattern Overlay**).
+* This allows the pattern to be scaled and blended using various blending modes and opacities, restricting the pattern to the layer's opaque areas.
